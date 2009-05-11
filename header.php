@@ -4,6 +4,7 @@
 	<meta name="author" content="Thomas Tsai" />
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="stylesheet" href="images/style.css" type="text/css" />
+        <link rel="alternate" href="https://sourceforge.net/export/rss2_projnews.php?group_id=183378" type="application/rss+xml" class="rss" title="RSS Feed" />
 	<title>Partclone</title>
 </head>
 <body>
