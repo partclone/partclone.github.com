@@ -79,6 +79,11 @@ body {
 
 }
 
+.panel pre{
+	color: #666666;
+	font: 0.7em Tahoma, sans-serif;
+}
+
 /*TEXT STYLES*/
 .bodytext {
 	font: 0.7em Tahoma, sans-serif;

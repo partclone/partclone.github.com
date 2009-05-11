@@ -1,6 +1,6 @@
 		</div>
 		<div id="footer" class="smallgraytext" align="center">
-			<a href="index.php">Home</a> | <a href="news.php">News</a> | <a href="feature.php">Feature</a> | <a href="download.php">Download</a> | <a href="contact.php">Contact Us</a><br />
+			<a href="index.php">Home</a> | <a href="news.php">News</a> | <a href="feature.php">Feature</a> | <a href="usage.php">Usage</a> | <a href="download.php">Download</a> | <a href="contact.php">Contact Us</a><br />
 		    <br />
 		    <div style="text-align: center;">
 			<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=235" alt="SourceForge Logo" border="0" height="31" width="88" /></a>

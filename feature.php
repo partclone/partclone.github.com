@@ -70,5 +70,16 @@
 </tr>
 </table>
 				</div>
+<!--
+			<div class="panel" align="justify">
+				<span class="orangetitle">Features</span>
+More User Interface
+Text Ncurses and Dialog mode
 
+crc32
+
+debug level
+
+</div>
+-->
 <?php include("footer.php");?>

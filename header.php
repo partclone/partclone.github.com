@@ -32,6 +32,7 @@
 					<a href="index.php" title="Home">Home</a>
 					<a href="news.php" title="News">News</a>
 					<a href="feature.php" title="Feature">Feature</a>
+					<a href="usage.php" title="Usage">Usage</a>
 					<a href="download.php" title="Download">Download</a>
 					<a href="contact.php" title="Contact Us">Contact Us</a>
 				</div>
