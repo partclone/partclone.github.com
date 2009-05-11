@@ -7,70 +7,68 @@
 
 			<div class="panel" align="justify">
 				<span class="orangetitle">Supported Filesystem</span>
-				<span class="bodytext"><br />
 <table>
 <tr>
-<th>FS
-<th>Library
-<th>Utility
+<th>FS</th>
+<th>Library</th>
+<th>Utility</th>
 </tr>
 <tr>
-<td>Ext2
-<td>e2fsprogs
-<td>partclone.ext2 or partclone.extfs
+<td>Ext2</td>
+<td>e2fsprogs</td>
+<td>partclone.ext2 or partclone.extfs</td>
 </tr>
 <tr>
-<td>Ext3
-<td>e2fsprogs
-<td>partclone.ext3 or partclone.extfs
+<td>Ext3</td>
+<td>e2fsprogs</td>
+<td>partclone.ext3 or partclone.extfs</td>
 </tr>
 <tr>
-<td>Ext4
-<td>e2fsprogs
-<td>partclone.ext4 or partclone.extfs
+<td>Ext4</td>
+<td>e2fsprogs</td>
+<td>partclone.ext4 or partclone.extfs</td>
 </tr>
 <tr>
-<td>Reiserfs
-<td>libreiserfs
-<td>partclone.reiserfs
+<td>Reiserfs</td>
+<td>libreiserfs</td>
+<td>partclone.reiserfs</td>
 </tr>
 <tr>
-<td>Reiser4
-<td>reiser4progs
-<td>partclone.reiser4
+<td>Reiser4</td>
+<td>reiser4progs</td>
+<td>partclone.reiser4</td>
 </tr>
 <tr>
-<td>XFS
-<td>xfslibs
-<td>partclone.xfs
+<td>XFS</td>
+<td>xfslibs</td>
+<td>partclone.xfs</td>
 </tr>
 <tr>
-<td>NTFS
-<td>ntfsprogs
-<td>partclone.ntfs
+<td>NTFS</td>
+<td>ntfsprogs</td>
+<td>partclone.ntfs</td>
 </tr>
 <tr>
-<td>FAT 12
-<td>X
-<td>partclone.fat12 or partclone.vfat
+<td>FAT 12</td>
+<td>X</td>
+<td>partclone.fat12 or partclone.vfat</td>
 </tr>
 <tr>
-<td>FAT 16
-<td>X
-<td>partclone.fat16 or partclone.vfat
+<td>FAT 16</td>
+<td>X</td>
+<td>partclone.fat16 or partclone.vfat</td>
 </tr>
 <tr>
-<td>FAT 32
-<td>X
-<td>partclone.fat32 or partclone.vfat
+<td>FAT 32</td>
+<td>X</td>
+<td>partclone.fat32 or partclone.vfat</td>
 </tr>
 <tr>
-<td>HFS plus
-<td>X(ref:HFS Plus Volume Format)
-<td>partclone.hfsplus , partclone.hfsp or partclone.hfs+
+<td>HFS plus</td>
+<td>X(ref:HFS Plus Volume Format)</td>
+<td>partclone.hfsplus , partclone.hfsp or partclone.hfs+</td>
 </tr>
 </table>
-				</span>
 				</div>
 
 <?php include("footer.php");?>

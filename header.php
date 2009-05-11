@@ -18,7 +18,7 @@
 		</div>
 		<div id="header" align="center">
 			<div class="titletext" id="logo">
-			<img src="images/partclone-easy-logo.png" height="110"></img>
+			<img src="images/partclone-easy-logo.png" height="110" alt="partclone-logo" />
 				<div class="logotext" style="margin:30px">Partclone</div> 
 			</div>
 			<div id="pagetitle">
@@ -37,5 +37,6 @@
 				</div>
 				<div align="right" style="width:189px; height:8px;"><img src="images/mnu_bottomshadow.gif" width="189" height="8" alt="mnubottomshadow" /></div>
 			</div>
+
 
 		<div id="contenttext">

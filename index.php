@@ -7,27 +7,23 @@
 
 			<div class="panel" align="justify">
 				<span class="orangetitle">Supported filesystem</span>
-				<span class="bodytext"><br />
-    <ul>
-    <li> <strong>Linux</strong>
-	<ul>
-	<li> Ext2, Ext3, and Ext4
-	<li> Reiserfs
-	<li> Reiser4
-	<li> Xfs
-	</ul>
-    <li> <strong>Windows</strong>
-	<ul>
-	<li> NTFS
-	<li> FAT
-	</ul>
-    <li> <strong>MAC OS X</strong>
-	<ul>
-	<li> HFS plus
-	</ul>
-    </ul>
+    <span class="bodytext"><br />Linux</span>
+        <ul>
+        <li> Ext2, Ext3, and Ext4</li>
+        <li> Reiserfs</li>
+        <li> Reiser4</li>
+        <li> Xfs</li>
+        </ul>
+    <span class="bodytext"><br />Windows</span>
+        <ul>
+        <li> NTFS</li>
+        <li> FAT</li>
+        </ul>
+    <span class="bodytext"><br />MAC OS X</span>
+        <ul>
+        <li> HFS plus</li>
+        </ul>
 
-				</span>
 				</div>
 
 <?php include("footer.php");?>

@@ -3,13 +3,13 @@
 <div class="panel" align="justify"> <span class="orangetitle">SourceForge</span>
 <span class="bodytext">
 <br />You can get static deb ,rpm and source code from Sourceforge.
-<br />download: <a href="http://sourceforge.net/project/showfiles.php?group_id=183378&package_id=212895">SourceForge</a>
+<br />download: <a href="http://sourceforge.net/project/showfiles.php?group_id=183378&amp;package_id=212895" title="Sourceforge">SourceForge</a>
 </span>
 </div>
 
 <div class="panel" align="justify"> <span class="orangetitle">Clonezilla</span>
 <span class="bodytext">
-<br />You can use clonezilla which is intergrated tool to back your disk/partition. Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast, allows you to do bare metal backup and recovery. <a href="http://www.clonezilla.org">go to clonezilla</a>
+<br />You can use clonezilla which is intergrated tool to back your disk/partition. Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast, allows you to do bare metal backup and recovery. <a href="http://www.clonezilla.org" title="clonezilla">go to clonezilla</a>
 </span>
 </div>
 
@@ -23,8 +23,7 @@
 <br /><strong>Dev SVN Repository (for developer only)</strong>
 <br />svn co http://partclone.nchc.org.tw/partclone_svn/partclone
 <br /><strong>TREC</strong>
-<br /><a href="http://partclone.nchc.org.tw/">Partclone Trec</a>
-
+<br /><a href="http://partclone.nchc.org.tw/" title="partclone trec">Partclone Trec</a>
 </span>
 </div>
 

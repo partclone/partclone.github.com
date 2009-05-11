@@ -9,11 +9,11 @@
 </div>
 
 <div class="bodytext" style="padding:12px;" align="justify">
-Project Admins: Thomas_Tsai<br>
-Co-developer: Jazz Yao-Tsung Wang, Steven Shiau, Ceasar Sun<br>
-Operating System: Linux<br>
-License: GNU General Public License (GPL)<br>
-Category: Backup<br>
-Related Project: Diskless Remote Boot Linux (a.k.a DRBL), Clonezilla<br>
+Project Admins: Thomas_Tsai<br />
+Co-developer: Jazz Yao-Tsung Wang, Steven Shiau, Ceasar Sun<br />
+Operating System: Linux<br />
+License: GNU General Public License (GPL)<br />
+Category: Backup<br />
+Related Project: Diskless Remote Boot Linux (a.k.a DRBL), Clonezilla<br />
 </div>
 <?php include("footer.php");?>
