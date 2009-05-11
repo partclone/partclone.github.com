@@ -10,7 +10,7 @@
 	<div id="page" align="center">
 		<div id="toppage" align="center">
 			<div id="date">
-				<div class="smalltext" style="padding:13px;"><strong>April 21, 2009</strong></div>
+				<div class="smalltext" style="padding:13px;"><strong>Monday, May 11 2009</strong></div>
 			</div>
 			<div id="topbar">
 				<div align="right" style="padding:12px;" class="smallwhitetext"><a href="index.php">Home</a> | <a href="http://partclone.nchc.org.tw/">Trac</a> | <a href="contact.php">Contact Us</a></div>

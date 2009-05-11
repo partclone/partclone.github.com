@@ -23,7 +23,7 @@
 <br /><strong>Dev SVN Repository (for developer only)</strong>
 <br />svn co http://partclone.nchc.org.tw/partclone_svn/partclone
 <br /><strong>TREC</strong>
-<br /><a href="http://partclone.nchc.org.tw/" title="partclone trec">Partclone Trec</a>
+<br /><a href="http://partclone.nchc.org.tw/" title="partclone trec">Partclone Trac</a>
 </span>
 </div>
 
