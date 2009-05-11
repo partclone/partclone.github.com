@@ -13,7 +13,7 @@
 				<div class="smalltext" style="padding:13px;"><strong>April 21, 2009</strong></div>
 			</div>
 			<div id="topbar">
-				<div align="right" style="padding:12px;" class="smallwhitetext"><a href="index.php">Home</a> | <a href="http://partclone.nchc.org.tw/">Trec</a> | <a href="contact.php">Contact Us</a></div>
+				<div align="right" style="padding:12px;" class="smallwhitetext"><a href="index.php">Home</a> | <a href="http://partclone.nchc.org.tw/">Trac</a> | <a href="contact.php">Contact Us</a></div>
 			</div>
 		</div>
 		<div id="header" align="center">
