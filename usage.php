@@ -58,6 +58,9 @@ OPTIONS
        -X, --dialog
 	      output message as Dialog Format
 
+       -q,  --quiet
+	      Disable progress message
+
        -F, --force
 	      force progress
 
