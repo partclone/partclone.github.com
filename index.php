@@ -11,10 +11,12 @@
 				<span class="orangetitle">Supported filesystem</span>
     <span class="bodytext"><br />Linux</span>
         <ul>
+        <li> Btrfs </li>
         <li> Ext2, Ext3, and Ext4</li>
         <li> Reiserfs</li>
         <li> Reiser4</li>
         <li> Xfs</li>
+        <li> Jfs</li>
         </ul>
     <span class="bodytext"><br />Windows</span>
         <ul>
@@ -25,7 +27,14 @@
         <ul>
         <li> HFS plus</li>
         </ul>
-
-				</div>
+    <span class="bodytext"><br />FreeBSD</span>
+        <ul>
+        <li> UFS2 </li>
+        </ul>
+    <span class="bodytext"><br />ESX</span>
+        <ul>
+        <li> VMFS (version 0.2.3 or later)</li>
+        </ul>
+</div>
 
 <?php include("footer.php");?>

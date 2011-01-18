@@ -25,10 +25,6 @@ Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"
 <li>Tue Aug 20 - <a href="" target="_blank"></a></li>
 </ul>
 -->
-<br /><span class="bodytext"><strong>JAN, 2011</strong></span><br />
-<ul>
-<li>Mon Jan 17 - <a href="http://www.allfancydress.com" target="_blank">All Fancy Dress</a></li>
-</ul>
 <br /><span class="bodytext"><strong>DEC, 2010</strong></span><br />
 <ul>
 <li>Fri Dec 24 - <a href="http://www.freevector.com/" target="_blank">Free Vectors</a></li>

@@ -110,6 +110,15 @@ body {
 .smallwhitetext a:hover{
 	text-decoration:underline;
 }
+.listwhitetext a{
+	font-size: 12px;
+	font-weight:bold;
+	color: blue;
+	text-decoration:none;
+}
+.listwhitetext a:hover{
+	text-decoration:underline;
+}
 .smallgraytext {
 	font: 0.7em Tahoma, sans-serif;
 	font-size: 11px;

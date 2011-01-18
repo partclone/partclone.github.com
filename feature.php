@@ -14,6 +14,11 @@
 <th>Utility</th>
 </tr>
 <tr>
+<td>Btrfs</td>
+<td>btrfs-tools</td>
+<td>partclone.btrfs</td>
+</tr>
+<tr>
 <td>Ext2</td>
 <td>e2fsprogs</td>
 <td>partclone.ext2 or partclone.extfs</td>
@@ -44,6 +49,11 @@
 <td>partclone.xfs</td>
 </tr>
 <tr>
+<td>JFS</td>
+<td>jfsutils</td>
+<td>partclone.jfs</td>
+</tr>
+<tr>
 <td>NTFS</td>
 <td>ntfsprogs</td>
 <td>partclone.ntfs</td>
@@ -67,6 +77,16 @@
 <td>HFS plus</td>
 <td>X(ref:HFS Plus Volume Format)</td>
 <td>partclone.hfsplus , partclone.hfsp or partclone.hfs+</td>
+</tr>
+<tr>
+<td>UFS2</td>
+<td>ufsutilies</td>
+<td>partclone.ufs</td>
+</tr>
+<tr>
+<td>VMFS</td>
+<td>vmfstools</td>
+<td>partclone.vmfs</td>
 </tr>
 </table>
 				</div>
