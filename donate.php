@@ -8,7 +8,7 @@ If you use Partclone and it does the job for you, please donate to help us to ma
 <!--<li><form id="donate_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target=_blank> <p>Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"> $2 <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20 <input name="amount" value="" type="radio"> Other <input name="submit" class="button" value="Donate!" type="submit"> <input name="cmd" value="_xclick" type="hidden"> <input name="business" value="thomas@nchc.org.tw" type="hidden"> <input name="item_name" value="Clonezilla Project" type="hidden"> <input name="no_shipping" value="1" type="hidden"> </p></form></li>-->
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"> $2 <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20 <input name="amount" value="" type="radio"> Other
+Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20  <input name="amount" value="50" type="radio"> $50 <input name="amount" value="" type="radio"> Other
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="thomas@nchc.org.tw">
 <input type="hidden" name="item_name" value="partclone.org">
@@ -25,6 +25,11 @@ Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"
 <li>Tue Aug 20 - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>Feb, 2011</strong></span><br />
+<ul>
+<li>Fri Feb 11 - <a href="http://boyerroseneco.com/" target="_blank">Boyer Rosene</a></li>
+<li>Tue Feb 08 - <a href="http://www.einkauf-auf-rechnung.de" target="_blank">Kauf auf Rechnung</a></li>
+</ul>
 <br /><span class="bodytext"><strong>JAN, 2011</strong></span><br />
 <ul>
 <li>Sun Jan 30 - <a href="http://www.freewarenetz.de" target="_blank">Software Download Link</a></li>
