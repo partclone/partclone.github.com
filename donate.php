@@ -29,7 +29,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <ul>
 <li>Mon Feb 21 - <a href="http://www.schmuck-d-or.de" target="_blank">Verlobungsringe</a></li>
 <li>Mon Feb 21 - <a href="http://www.plattformlifte.net" target="_blank">plattformlifte</a></li>
-<li>Mon Feb 21 - <a href="http://www.treppenlifter.de" target="_blank">Treppenlifter</a></li>
+<li>Mon Feb 21 - <a href="http://www.treppenlifter.biz" target="_blank">Treppenlifter</a></li>
 <li>Mon Feb 21 - <a href="http://www.badewannenlift.org" target="_blank">badewannenlift</a></li>
 <li>Mon Feb 21 - <a href="http://www.treppenlift-treppenlifte.de" target="_blank">treppenlift</a></li>
 <li>Wed Feb 16 - <a href="http://www.allpointspioneer.com/" target="_blank">Dallas Movers</a></li>
