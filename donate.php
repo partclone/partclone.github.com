@@ -25,6 +25,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
+<ul>
+<li>Mon Apr 04 - <a href="http://chicagoblogger.com" target="_blank">Chicago Blog </a></li>
+</ul>
 <br /><span class="bodytext"><strong>Mar, 2011</strong></span><br />
 <ul>
 <li>Wed Mar 23 - <a href="http://www.seanrasmussen.com/" target="_blank">Napoleon Hill</a></li>
