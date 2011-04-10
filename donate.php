@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
 <ul>
+<li>Sat Apr 09 - <a href="http://www.imobiliare-info.ro" target="_blank">Portal imobiliare</a></li>
+<li>Sat Apr 09 - <a href="http://www.gutscheinlager.de" target="_blank">Gutscheine</a></li>
 <li>Mon Apr 04 - <a href="http://chicagoblogger.com" target="_blank">Chicago Blog </a></li>
 </ul>
 <br /><span class="bodytext"><strong>Mar, 2011</strong></span><br />
