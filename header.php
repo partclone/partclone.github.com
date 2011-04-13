@@ -11,9 +11,12 @@
 <body>
 	<div id="page" align="center">
 		<div id="toppage" align="center">
+			
 			<div id="date">
-				<div class="smalltext" style="padding:13px;"><strong>Last Update:<br />Mon Sep 13 2010</strong></div>
+				<!--<div class="smalltext" style="padding:13px;"><strong>Last Update:<br />Mon Sep 13 2010</strong></div>-->
+				<a href="http://freshmeat.net/projects/partclone/releases.atom"><img src="image/rss.png" /></a>
 			</div>
+			
 			<div id="topbar">
 				<div align="right" style="padding:12px;" class="smallwhitetext"><a href="index.php">Home</a> | <a href="http://partclone.nchc.org.tw/" target="_blank" >Trac</a> | <a href="contact.php">Contact Us</a></div>
 			</div>
@@ -36,6 +39,7 @@
 					<a href="feature.php" title="Feature">Feature</a>
 					<a href="usage.php" title="Usage">Usage</a>
 					<a href="download.php" title="Download">Download</a>
+					<a href="rss.php" title="RSS">RSS</a>
 					<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=partclone-user" target="_blank"  title="Mailing List">Mailing List</a>
 					<a href="https://sourceforge.net/projects/partclone/forums" target="_blank"  title="Forum">Forum</a>
 					<a href="contact.php" title="Contact Us">Contact Us</a>
