@@ -4,6 +4,7 @@
 		    <br />
 		    <div style="text-align: center;">
 			<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=235" alt="SourceForge Logo" border="0" height="31" width="88" /></a>
+			<a href="http://freshmeat.net/"><img src="http://a.fsdn.com/fm//images/fm_logo.png?1290590607" alt="SourceForge Logo" border="0" height="31" width="88" /></a>
     <a href="http://validator.w3.org/check?uri=referer"><img
         src="http://www.w3.org/Icons/valid-xhtml10"
         alt="Valid XHTML 1.0 Transitional" border="0" height="31" width="88" /></a>

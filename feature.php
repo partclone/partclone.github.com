@@ -90,6 +90,22 @@
 </tr>
 </table>
 				</div>
+
+			<div class="panel" align="justify">
+				<span class="orangetitle">Other Feature</span>
+				<table>
+				<tr>
+				<td>dd</td>
+				<td>row copy any file</td>
+				<td>partclone.dd</td>
+				</tr>
+				<tr>
+				<td>imgchk</td>
+				<td>check image file</td>
+				<td>partclone.chkimg</td>
+				</tr>
+				<tr>
+				</table>
 <!--
 			<div class="panel" align="justify">
 				<span class="orangetitle">Features</span>
