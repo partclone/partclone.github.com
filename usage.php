@@ -2,11 +2,30 @@
 
 			<div class="bodytext" style="padding:12px;" align="justify">
 <strong>Partclone is a project similar to the well-known backup utility "Partition Image" a.k.a partimage.</strong><br /><br />
-<strong>Partclone</strong> provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.
-				</div>
 
 			<div class="panel" align="justify">
 				<span class="orangetitle">Usage</span>
-				<?php include("usage_extfs.php");?>
-				</div>
+				<a href="usage.php?usage=chkimg">partclone.chkimg</a> | 
+				<a href="usage.php?usage=dd">partclone.dd</a> | 
+				<a href="usage.php?usage=extfs">partclone.extfs(ext2|btrfs|reiserfs...)</a> | 
+				<a href="usage.php?usage=info">partclone.info</a> | 
+				<a href="usage.php?usage=restore">partclone.restore</a>
+			</div>
+			</div>
+			<div class="bodytext" style="padding:12px;" align="justify">
+				<?php
+				$usage=$_GET['usage'];
+				if ($usage == 'extfs')
+				    include("usage_extfs.php");
+				elseif ($usage == 'chkimg')
+				    include("usage_chkimg.php");
+				elseif ($usage == 'dd')
+				    include("usage_dd.php");
+				elseif ($usage == 'restore')
+				    include("usage_restore.php");
+				elseif ($usage == 'info')
+				    include("usage_info.php");
+				?>
+			</div>
+
 <?php include("footer.php");?>

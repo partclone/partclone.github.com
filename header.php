@@ -13,8 +13,8 @@
 		<div id="toppage" align="center">
 			
 			<div id="date">
-				<!--<div class="smalltext" style="padding:13px;"><strong>Last Update:<br />Mon Sep 13 2010</strong></div>-->
-				<a href="http://freshmeat.net/projects/partclone/releases.atom"><img src="images/rss.png" /></a>
+				<div class="smalltext" style="padding:13px;"><strong>Last Update:<br />Wed April 13 2011</strong></div>
+				<!--<a href="http://freshmeat.net/projects/partclone/releases.atom"><img src="images/rss.png" /></a>-->
 			</div>
 			
 			<div id="topbar">

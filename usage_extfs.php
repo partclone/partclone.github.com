@@ -1,4 +1,5 @@
 <H1>partclone.extfs</H1>
+
 <A NAME="lbAB">&nbsp;</A>
 <H2>NAME</H2>
 
@@ -30,65 +31,65 @@ Output FILE, overwriting if exists
 
 <DD>
 Source FILE
-<DT>
+<DT><B>-L,  --logfile FILE     </B>
+
 <DD>
--L,  --logfile FILE     
 Log FILE
-<DT>
+<DT><B>-c,  --clone            </B>
+
 <DD>
--c,  --clone            
 Save to the special image format
-<DT>
+<DT><B>-r,  --restore          </B>
+
 <DD>
--r,  --restore          
 Restore from the special image format
-<DT>
+<DT><B>-b,  --dev-to-dev       </B>
+
 <DD>
--b,  --dev-to-dev       
 Local device to device copy mode
-<DT>
+<DT><B>-R,  --rescue           </B>
+
 <DD>
--R,  --rescue           
 Continue after disk read errors
-<DT>
+<DT><B>-dX, --debug=X          </B>
+
 <DD>
--dX, --debug=X          
 Set the debug level to X = [0|1|2]
-<DT>
+<DT><B>-C,  --no_check         </B>
+
 <DD>
--C,  --no_check         
 Don't check device size and free space
-<DT>
+<DT><B>-X,  --dialog           </B>
+
 <DD>
--X,  --dialog           
 Output message as Dialog Format
-<DT>
+<DT><B>-I,  --ignore_fschk     </B>
+
 <DD>
--I,  --ignore_fschk     
 Ignore filesystem check
-<DT>
+<DT><B>--ignore_crc       </B>
+
 <DD>
---ignore_crc       
 Ignore crc check error
-<DT>
+<DT><B>-F,  --force            </B>
+
 <DD>
--F,  --force            
 Force progress
-<DT>
+<DT><B>-f,  --UI-fresh         </B>
+
 <DD>
--f,  --UI-fresh         
 Fresh times of progress
-<DT>
+<DT><B>-q,  --quiet            </B>
+
 <DD>
--q,  --quiet            
 quiet mode, no progress update
-<DT>
+<DT><B>-v,  --version          </B>
+
 <DD>
--v,  --version          
 Display partclone version
-<DT>
+<DT><B>-h,  --help             </B>
+
 <DD>
--h,  --help             
 Display this help
 </DL>
 <A NAME="lbAF">&nbsp;</A>
@@ -141,4 +142,6 @@ This manual page was written by Thomas Tsai &lt;<A HREF="mailto:thomas@nchc.org.
 This document was created by
 <A HREF="/cgi-bin/man/man2html">man2html</A>,
 using the manual pages.<BR>
-Time: 05:30:58 GMT, April 13, 2011
+Time: 07:15:53 GMT, April 13, 2011
+</BODY>
+</HTML>
