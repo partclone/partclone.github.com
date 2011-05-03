@@ -27,6 +27,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
 <ul>
+<li>Tue May 03 - <a href="http://www.pension-charles.de" target="_blank">Pension</a></li>
+</ul>
+<br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
+<ul>
 <li>Tue Apr 26 - <a href="http://www.strandkorb-kaufen.net" target="_blank">Strandkorb kaufen</a></li>
 <li>Sat Apr 24 - <a href="http://www.massageliege.de" target="_blank">Massageliege</a></li>
 <li>Fri Apr 22 - <a href="http://www.seomatrix.de" target="_blank">Seo Matrix</a></li>
