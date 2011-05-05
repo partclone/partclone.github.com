@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
 <ul>
+<li> Wed May 04- <a href="http://www.machit.de" target="_blank" title="Täglich neue Gutscheine">Gutscheine Thank you</a></li>
 <li>Tue May 03 - <a href="http://www.pension-charles.de" target="_blank">Pension</a></li>
 </ul>
 <br /><span class="bodytext"><strong>Apr, 2011</strong></span><br />
