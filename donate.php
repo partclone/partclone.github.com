@@ -49,7 +49,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li>Tue Mar 15 - <a href="http://www.per-rechnung-bestellen.com" target="_blank">Kauf auf Rechnung</a></li>
 <li>Mon Mar 14 - <a href="http://www.buysildenafil.com/" target="_blank">sildenafil</a></li>
 <li>Thu Mar 10 - <a href="http://www.buykamagra.biz/" target="_blank">Kamagra</a></li>
-<li>Fri Mar 04 - <a href="www.reiseversicherungsvergleich.com" target="_blank">reiseversicherung vergleich</a></li>
+<li>Fri Mar 04 - <a href="http://www.reiseversicherungsvergleich.com" target="_blank">reiseversicherung vergleich</a></li>
 <li>Tue Mar 01 - <a href="http://www.internet-unterwegs.com/surf-stick-prepaid/" target="_blank">Internet Stick ohne Vertrag</a></li>
 </ul>
 <br /><span class="bodytext"><strong>Feb, 2011</strong></span><br />
@@ -67,7 +67,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <br /><span class="bodytext"><strong>JAN, 2011</strong></span><br />
 <ul>
 <li>Sun Jan 30 - <a href="http://www.freewarenetz.de" target="_blank">Software Download Link</a></li>
-<li>Thu Jan 27 - <a href="http://http://www.inetstyle.de" target="_blank">Tobias Pellny</a></li>
+<li>Thu Jan 27 - <a href="http://www.inetstyle.de" target="_blank">Tobias Pellny</a></li>
 <li>Sun Jan 23 - <a href="http://www.gutscheinlotse.de" target="_blank">Gutscheinlotse.de</a></li>
 <li>Mon Jan 17 - <a href="http://www.allfancydress.com" target="_blank">All Fancy Dress</a></li>
 </ul>
