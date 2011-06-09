@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>June, 2011</strong></span><br />
 <ul>
+<li> Thu June 09 - <a href="http://www.domainist.de" target="_blank">German Domain Blog</a></li>
+<li> Thu June 09 - <a href="http://www.backlink-service.org" target="_blank">Professioneller Linkaufbau</a></li>
 <li> Wed June 08 - <a href="http://www.in-security.net/" target="_blank">Seo Blog</a></li>
 <li> Wed June 08 - <a href="http://www.handandwristinstitute.com/" target="_blank">hand specialist los angeles</a></li>
 <li> Wed June 08 - <a href="http://www.pchtreatment.com/depression-residential-treatment-center.php"  target="_blank">depression treatment center</a></li>
