@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>June, 2011</strong></span><br />
 <ul>
+<li> Fri June 17 - <a href="http://www.schmuck-machen.de/" target="_blank">Schmuck selber machen</a></li>
 <li> Thu June 16 - <a href="http://www.usenetcheck.com/firstload" target="_blank">Neuer Firstload Account</a></li>
 <li> Tue June 14 - <a href="http://www.wegwerf-email.net" target="_blank">wegwerf email</a></li>
 <li> Thu June 09 - <a href="http://www.domainist.de" target="_blank">German Domain Blog</a></li>
