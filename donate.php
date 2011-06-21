@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>June, 2011</strong></span><br />
 <ul>
+<li> Tue June 21 - <a href="http://www.fotobuch-online-gestalten.de/fotobuch-hochzeit.html" target="_blank">Hochzeit Fotobuch</a></li>
 <li> Sun June 19 - <a href="http://www.vortexdoors.com/glass/board-ups.aspx" target="_blank">Glass Replacement</a></li>
 <li> Sat June 18 - <a href="http://www.sichtschutzfolien.org/" target="_blank">Sichtschutzfolien für Fenster und Glas</a></li>
 <li> Fri June 17 - <a href="http://www.schmuck-machen.de/" target="_blank">Schmuck selber machen</a></li>
