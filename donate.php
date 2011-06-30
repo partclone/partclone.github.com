@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>June, 2011</strong></span><br />
 <ul>
+<li> Thu June 30 - <a href="http://www.linkch.info" target="_blank">Webkatalog</a></li>
+<li> Thu June 30 - <a href="http://www.finest-silver-gallery.com" target="_blank">Silberschmuck</a></li>
 <li> Wed June 22 - <a href="http://designskins.com/de/" target="_blank">Designfolien</a></li>
 <li> Tue June 21 - <a href="http://www.werbeschilder-wissen.de/" target="_blank">Werbeschilder-Wissen</a></li>
 <li> Tue June 21 - <a href="http://www.fotobuch-online-gestalten.de/fotobuch-hochzeit.html" target="_blank">Hochzeit Fotobuch</a></li>
