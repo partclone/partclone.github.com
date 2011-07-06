@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
 <ul>
+<li> Wed July 06 - <a href="http://www.submit-link.net" target="_blank">Submit Link</a></li>
+<li> Wed July 06 - <a href="http://www.reissverschluss-laden.de/" target="_blank">Reissverschluss-Shop</a></li>
 <li> Sun July 03 - <a href="http://eis-selber-machen.org/" target="_blank">Eis selber machen</a></li>
 <li> Sun July 03 - <a href="http://www.hundefutter-store.de" target="_blank">Hundefutter-Shop</a></li>
 <li> Sun July 03 - <a href="http://www.fernglasagentur.de/barska-fernglaeser/" target="_blank">Barska</a></li>
