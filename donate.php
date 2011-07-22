@@ -28,7 +28,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
 <ul>
 <li> July 18 - <a href="http://www.fairlinked.de" target="_blank">IT-Service Hamburg</a></li>
-<li> July 13 - <a href="http://www.cool-sms.de" target="_blank">neue Handys</a></li>
+<li> July 13 - <a href="http://www.cool-sms.de" target="_blank">cool-sms.de</a></li>
 <li> July 12 - <a href="http://www.bidetsplus.com/" target="_blank">bidet toilet seat</a></li>
 <li> July 10 - <a href="http://www.tausend-themen.de" target="_blank">Tausend Themen</a></li>
 <li> July 09 - <a href="http://www.unique-network.de/" target="_blank">Texterstellung Ziel</a></li>
