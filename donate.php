@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
 <ul>
+<li> July 25 - <a href="http://www.proyos.de/" target="_blank">Proyos Besuchertausch</a></li>
 <li> July 25 - <a href="http://www.nierenkranke-katze.de" target="_blank">Katzen Nierendiätfutter</a></li>
 <li> July 23 - <a href="http://www.apartmentsavvy.com/" target="_blank">Chicago Apartment Finder</a></li>
 <li> July 18 - <a href="http://www.fairlinked.de" target="_blank">IT-Service Hamburg</a></li>
