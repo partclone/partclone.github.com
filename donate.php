@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
 <ul>
+<li> July 28 - <a href="http://www.kaeuferportal.de/" target="_blank">Käuferportal</a></li>
 <li> July 26 - <a href="http://www.trachtenkleider-shop.de/" target="_blank">Trachtenkleider Shop</a></li>
 <li> July 25 - <a href="http://www.proyos.de/" target="_blank">Proyos Besuchertausch</a></li>
 <li> July 25 - <a href="http://www.nierenkranke-katze.de" target="_blank">Katzen Nierendiätfutter</a></li>
