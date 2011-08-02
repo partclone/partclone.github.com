@@ -25,6 +25,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>August, 2011</strong></span><br />
+<ul>
+<li> Aug 1 - <a href="www.gesundheitsecke.com" target="_blank">www.gesundheitsecke.com</a><li/>
+</ul>
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
 <ul>
 <li> July 28 - <a href="http://www.kaeuferportal.de/" target="_blank">Käuferportal</a></li>
