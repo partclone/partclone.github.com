@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
 <ul>
+<li> Aug 8 - <a href="http://www.fotoservice-online.net/" target="_blank">Fotoservice Online</a></li>
 <li> Aug 1 - <a href="http://www.gesundheitsecke.com" target="_blank">www.gesundheitsecke.com</a><li/>
 </ul>
 <br /><span class="bodytext"><strong>July, 2011</strong></span><br />
