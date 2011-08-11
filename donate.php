@@ -27,6 +27,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
 <ul>
+
+<li> Aug 10 - <a href="http://www.wasserbetten-geschaeft.de" target="_blank">Wasserbetten</a></li>
+<li> Aug 10 - <a href="http://www.mobiles-internet24.de/" target="_blank">Mobiles Internet</a></li>
+<li> Aug 10 - <a href="http://www.vorlagen-muster.com/" target="_blank">www.vorlagen-muster.com</a></li>
 <li> Aug 9 - <a href="http://www.sparspion.com" target="_blank">http://www.sparspion.com</a></li>
 <li> Aug 9 - <a href="http://www.x-trem24.de/erotik/" target="_blank" title="erotische und heiße dessous" >erotische dessous</a></li>
 <li> Aug 8 - <a href="http://www.fotoservice-online.net/" target="_blank">Fotoservice Online</a></li>
