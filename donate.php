@@ -27,7 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
 <ul>
-
+<li> Aug 15 - <a href="http://www.mobiles-lte-internet.de" title="LTE" target="_blank">www.mobiles-lte-internet.de</a></li>
+<li> Aug 15 - <a href="http://www.minimalistrunningshoes.us" target="_blank">minimalist running shoes</a></li>
 <li> Aug 10 - <a href="http://www.wasserbetten-geschaeft.de" target="_blank">Wasserbetten</a></li>
 <li> Aug 10 - <a href="http://www.mobiles-internet24.de/" target="_blank">Mobiles Internet</a></li>
 <li> Aug 10 - <a href="http://www.vorlagen-muster.com/" target="_blank">www.vorlagen-muster.com</a></li>
