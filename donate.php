@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
 <ul>
+<li> Aug 31 - <a href="http://www.handy-aufkleber.de/stickers/handy-stickers.html" target="_blank">Handy Sticker</a></li>
 <li> Aug 30 - <a href="http://www.kinderzimmer-gardinen.com" target="_blank">Kindergardinen</a></li>
 <li> Aug 26 - <a href="http://helppopikalaina.fi" target="_blank">Pikalainaa</a></li>
 <li> Aug 23 - <a href="http://www.faschingskostueme-ideen.de" target="_blank">Faschingskostüme</a></li>
