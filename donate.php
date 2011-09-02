@@ -25,6 +25,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>September 2011</strong></span><br />
+<ul>
+<li> Sep 02 - <a href="http://www.incentives-und-events.de" target="_blank">Incentives und Events</a></li>
+</ul>
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
 <ul>
 <li> Aug 31 - <a href="http://www.handy-aufkleber.de/stickers/handy-stickers.html" target="_blank">Handy Sticker</a></li>
