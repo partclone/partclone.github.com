@@ -27,7 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>September 2011</strong></span><br />
 <ul>
-<li> Sep 06 - <a href="http://www.27estore.com/modern-kitchen-cabinets" target="_blank">Kitchen Cabinets 27orange</a></li>
+<li> Sep 06 - <a href="http://www.27estore.com/modern-kitchen-cabinets" target="_blank">Kitchen Cabinets 27 orange</a></li>
 <li> Sep 02 - <a href="http://www.incentives-und-events.de" target="_blank">Incentives und Events</a></li>
 </ul>
 <br /><span class="bodytext"><strong>August, 2011</strong></span><br />
