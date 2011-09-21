@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>September 2011</strong></span><br />
 <ul>
+<li> Sep 21 - Müller Erfolgstraining</li>
 <li> Sep 20 - <a href="http://www.edelstahlschmuck24.com" target="_blank">Edelstahlschmuck, Magnetschmuck und Titanschmuck</a></li>
 <li> Sep 20 - <a href="http://www.hardgainerpro.de" target="_blank">Hardgainer</a></li>
 <li> Sep 16 - <a href="http://www.mallorca-ferienvermietung.net/" target="_blank">mallorca-ferienvermietung</a></li>
