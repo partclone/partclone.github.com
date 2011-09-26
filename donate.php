@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>September 2011</strong></span><br />
 <ul>
+<li> Sep 25 - <a href="http://www.primera-division.com" target="_blank">Primera Division</a></li>
+<li> Sep 25 - <a href="http://met-finanz.de" target="_blank">Dachfonds kaufen</a></li>
 <li> Sep 21 - Müller Erfolgstraining</li>
 <li> Sep 20 - <a href="http://www.edelstahlschmuck24.com" target="_blank">Edelstahlschmuck, Magnetschmuck und Titanschmuck</a></li>
 <li> Sep 20 - <a href="http://www.hardgainerpro.de" target="_blank">Hardgainer</a></li>
