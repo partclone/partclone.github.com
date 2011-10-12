@@ -25,6 +25,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>October 2011</strong></span><br />
+<ul>
+<li> Oct 12 - <a href="http://diaet-check.com/" target="_blank">Diät-Check.com - Gesundes Abnehmen</a></li>
+</ul>
 <br /><span class="bodytext"><strong>September 2011</strong></span><br />
 <ul>
 <li> Sep 25 - <a href="http://www.primera-division.com" target="_blank">Primera Division</a></li>
