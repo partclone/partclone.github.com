@@ -27,7 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>October 2011</strong></span><br />
 <ul>
-<li> Oct 13 - <a href="http:www.surfstickangebot.de" target="_blank">Surfstick Angebot</a></li>
+<li> Oct 13 - <a href="http://www.surfstickangebot.de" target="_blank">Surfstick Angebot</a></li>
 <li> Oct 12 - <a href="http://diaet-check.com/" target="_blank">Diät-Check.com - Gesundes Abnehmen</a></li>
 </ul>
 <br /><span class="bodytext"><strong>September 2011</strong></span><br />
