@@ -29,7 +29,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <ul>
 <li> Oct 17 - <a href="http://www.fixcarnow.com/auto-repair-culver-city/" target="_blank">auto repair Culver City</a></li>
 <li> Oct 17 - <a href="http://www.teakmaster.com/wood-restoration-company/teak-restoration/" target="_blank">teak refinishing</a></li>
-<li> Oct 17 - <a href="http://www.seoserviceslosangeles.com/" target="_blank"></a>los angeles seo company</li>
+<li> Oct 17 - <a href="http://www.seoserviceslosangeles.com/" target="_blank">los angeles seo company</a></li>
 <li> Oct 13 - <a href="http://www.surfstickangebot.de" target="_blank">Surfstick Angebot</a></li>
 <li> Oct 12 - <a href="http://diaet-check.com/" target="_blank">Diät-Check.com - Gesundes Abnehmen</a></li>
 </ul>
