@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>October 2011</strong></span><br />
 <ul>
+<li> Oct 21 - <a href="http://www.treppenliftfirmen.de/" target="_blank">Treppenliftfirmen.de</a></li>
+<li> Oct 21 - <a href="http://www.solaranlage.de" target="_blank">Solaranlagen</a></li>
 <li> Oct 19 - <a href="http://www.unternehmensauskunft.com/" target="_blank">Branchenbuch</a></li>
 <li> Oct 19 - <a href="http://ldkportal.de/Domain/" target="_blank">PR5 Backlink 25 Euro</a></li>
 <li> Oct 17 - <a href="http://www.fixcarnow.com/auto-repair-culver-city/" target="_blank">auto repair Culver City</a></li>
