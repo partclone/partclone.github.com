@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
+<li> Nov 06 - <a href="http://www.elfenmetall.com" target="_blank">elfenmetall</a></li>
 <li> Nov 01 - <a href="http://www.starboxx.de" target="_blank">modelagentur</a></li>
 </ul>
 <br /><span class="bodytext"><strong>October 2011</strong></span><br />
