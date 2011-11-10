@@ -27,7 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
-<li> Nov 09 - <a href="http://www.designsreview.com" target="_blank">designsreview</a></li>
+<li> Nov 09 - <a href="http://www.designsreview.com" target="_blank">feedback</a></li>
 <li> Nov 08 - <a href="http://www.spectragold.com" target="_blank">Eheringe aus der Schweiz</a></li>
 <li> Nov 06 - <a href="http://www.starboxx.de" target="_blank">modelagentur</a></li>
 <li> Nov 06 - <a href="http://www.elfenmetall.com" target="_blank">Trauringe aus der Schweiz</a></li>
