@@ -27,6 +27,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
+<li> Nov 16 - <a href="http://www.impressio-studio.de/" target="_blank">Hochzeitsfotograf</a></li>
+<li> Nov 16 - <a href="http://www.kiddyreisen.de/Urlaub-mit-Baby/" target="_blank">Urlaub mit Baby</a></li>
+<li> Nov 16 - <a href="http://www.pcplazza.de/silent-gaming-1" target="_blank">Silent Gaming</a></li>
+<li> Nov 16 - <a href="http://www.pcplazza.de/silent-gaming-1" target="_blank">Silent Gaming</a></li>
 <li> Nov 09 - <a href="http://www.designsreview.com" target="_blank">feedback</a></li>
 <li> Nov 08 - <a href="http://www.spectragold.com" target="_blank">Eheringe aus der Schweiz</a></li>
 <li> Nov 06 - <a href="http://www.starboxx.de" target="_blank">modelagentur</a></li>
