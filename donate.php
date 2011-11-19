@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
+<li> Nov 19 - <a href="http://www.stahlpappe.com/" target="_blank">Trabant </a></li>
 <li> Nov 17 - <a href="http://www.pokernachhilfe.com/" target="_blank">Pokerblog</a></li>
 <li> Nov 16 - <a href="http://www.impressio-studio.de/" target="_blank">Hochzeitsfotograf</a></li>
 <li> Nov 16 - <a href="http://www.kiddyreisen.de/Urlaub-mit-Baby/" target="_blank">Urlaub mit Baby</a></li>
