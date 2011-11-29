@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
+<li> Nov 26 - <a href="http://www.hauseo.de/" target="_blank">Hauseo Hausbau Berlin</a></li>
 <li> Nov 26 - <a href="http://www.gabelstapler-beratung.de/" target="_blank">Gabelstapler</a></li>
 <li> Nov 26 - <a href="http://www.schmuck-gestalten.org/" target="_blank">Schmuck gestalten</a></li>
 <li> Nov 20 - <a href="http://www.autoreifen.me/ " target="_blank">Autoreifen</a></li>
