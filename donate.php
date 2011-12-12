@@ -25,6 +25,10 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>December 2011</strong></span><br />
+<ul>
+<li> Dec 12 - <a href="http://www.gutscheinrabatte.com/shop/amazon/" target="_blank">Amazon Gutschein</a></li>
+</ul>
 <br /><span class="bodytext"><strong>November 2011</strong></span><br />
 <ul>
 <li> Nov 29 - <a href="http://www.hauseo.de/" target="_blank">Hauseo Hausbau Berlin</a></li>
