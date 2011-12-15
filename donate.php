@@ -27,6 +27,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>December 2011</strong></span><br />
 <ul>
+<li> Dec 15 - <a href="http://www.fotoalbum-erstellen.org/" target="_blank">Fotoalbum erstellen</a></li>
 <li> Dec 14 - <a href="http://www.schmuck-gestalten.org/schmuck-gravur-gestalten.html" target="_blank">Gravur Schmuck gestalten</a></li>
 <li> Dec 12 - <a href="http://www.gutscheinrabatte.com/shop/amazon/" target="_blank">Amazon Gutschein</a></li>
 </ul>
