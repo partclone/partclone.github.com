@@ -25,6 +25,11 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <li> - <a href="" target="_blank"></a></li>
 </ul>
 -->
+<br /><span class="bodytext"><strong>January 2012</strong></span><br />
+<ul>
+<li> Jan 04- <a href="http://www.schmuck-verkaufen.org/" target="_blank">Schmuck verkaufen</a></li>
+<li> Jan 04- <a href="http://www.ankauf24.org/buecherankauf.html" target="_blank">Bücher Ankauf</a></li>
+</ul>
 <br /><span class="bodytext"><strong>December 2011</strong></span><br />
 <ul>
 <li> Dec 31 - <a href="http://www.pokercheck.org/" target="_blank">PokerCheck</a></li>
