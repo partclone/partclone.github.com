@@ -27,6 +27,8 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 -->
 <br /><span class="bodytext"><strong>January 2012</strong></span><br />
 <ul>
+<li> Jan 10- <a href="http://www.aktienkaufen.de" target="_blank">www.aktienkaufen.de</a></li>
+<li> Jan 10- <a href="http://www.schumachercargo.com/" target="_blank">Car Shippers</a></li>
 <li> Jan 04- <a href="http://www.schmuck-verkaufen.org/" target="_blank">Schmuck verkaufen</a></li>
 <li> Jan 04- <a href="http://www.ankauf24.org/buecherankauf.html" target="_blank">Bücher Ankauf</a></li>
 </ul>
