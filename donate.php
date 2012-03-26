@@ -28,7 +28,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <br /><span class="bodytext"><strong>March 2012</strong></span><br />
 <ul>
 <li> Mar - 24 <a href="http://www.herpes-clinic.com/" target="_blank">buy valtrex online</a></li>
-<li> Mar - 23 <a href="http://www.azmoney.co.uk/tools/life-insurance-calculator" target="_blank">ife insurance calculator</a></li>
+<li> Mar - 23 <a href="http://www.azmoney.co.uk/tools/life-insurance-calculator" target="_blank">life insurance calculator</a></li>
 <li> Mar - 21 <a href="http://www.accurateperforating.com/perforated-metal" target="_blank">Perforated Metal</a></li>
 <li> Mar - 16 <a href="http://autosusados1.com/" target="_blank">Autos Usados</a></li>
 <li> Mar - 14 <a href="http://www.24hrcares.com/" target="_blank">home care</a></li>
