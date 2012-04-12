@@ -108,7 +108,7 @@ restore image from clonezilla(split, gzip,) with stdin source
 <P>
 <P>
 <P>
-cat sda1.ext3-ptcl-img.gz.a* &gt; gunzip -c | partclone.ext3 -d -r -s - -o /dev/sda1
+cat sda1.ext3-ptcl-img.gz.a* | gunzip -c | partclone.ext3 -d -r -s - -o /dev/sda1
 <P>
 <P>
 <A NAME="lbAG">&nbsp;</A>

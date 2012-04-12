@@ -96,7 +96,7 @@
 				<table>
 				<tr>
 				<td>dd</td>
-				<td>row copy any file</td>
+				<td>raw copy any file</td>
 				<td>partclone.dd</td>
 				</tr>
 				<tr>

@@ -25,7 +25,7 @@ Output FILE
 <DT><B>-O   --overwrite FILE   Output FILE, overwriting if exists</B>
 
 <DD>
---restore_row_file create special row file for loop device
+--restore_raw_file create special raw file for loop device
 <DT><B>-s,  --source FILE</B>
 
 <DD>
@@ -91,7 +91,7 @@ restore image from clonezilla(split, gzip,) with stdin source
 <P>
 cat sda1.ext3-ptcl-img.gz.a* &gt; gunzip -c | partclone.restore -d -s - -o /dev/sda1
 <P>
-restore row image from partclone.dd
+restore raw image from partclone.dd
 <P>
 partclone.dd -d -c -s /dev/sda1 -o - | partclone.restore -d -s - -o /dev/sdb1
 <A NAME="lbAG">&nbsp;</A>

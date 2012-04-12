@@ -2,7 +2,7 @@
 <A NAME="lbAB">&nbsp;</A>
 <H2>NAME</H2>
 
-partclone.dd - The utility to clone/restore row file like dd.
+partclone.dd - The utility to clone/restore raw file like dd.
 <A NAME="lbAC">&nbsp;</A>
 <H2>SYNOPSIS</H2>
 
