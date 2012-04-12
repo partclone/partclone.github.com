@@ -5,8 +5,10 @@
 <br /><strong>Donattion</strong>
 If you use Partclone and it does the job for you, please donate to help us to make Partclone better.
 
-<!--<li><form id="donate_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target=_blank> <p>Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"> $2 <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20 <input name="amount" value="" type="radio"> Other <input name="submit" class="button" value="Donate!" type="submit"> <input name="cmd" value="_xclick" type="hidden"> <input name="business" value="thomas@nchc.org.tw" type="hidden"> <input name="item_name" value="Clonezilla Project" type="hidden"> <input name="no_shipping" value="1" type="hidden"> </p></form></li>-->
+<!--
+<li><form id="donate_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target=_blank> <p>Donate via PayPal: <input name="amount" value="2" checked="checked" type="radio"> $2 <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20 <input name="amount" value="" type="radio"> Other <input name="submit" class="button" value="Donate!" type="submit"> <input name="cmd" value="_xclick" type="hidden"> <input name="business" value="thomas@nchc.org.tw" type="hidden"> <input name="item_name" value="Clonezilla Project" type="hidden"> <input name="no_shipping" value="1" type="hidden"> </p></form></li>-->
 
+<!--
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20  <input name="amount" value="50" type="radio"> $50 <input name="amount" value="" type="radio"> Other
 <input type="hidden" name="cmd" value="_donations">
@@ -14,6 +16,7 @@ Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="
 <input type="hidden" name="item_name" value="partclone.org">
 <input name="submit" class="button" value="Donate!" type="submit">
 </form>
+-->
 </span>
 </div>
 <div class="panel" align="justify"> <span class="orangetitle">Donate List</span>
