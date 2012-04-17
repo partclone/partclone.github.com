@@ -15,7 +15,7 @@
 
 <div class="panel" align="justify"> <span class="orangetitle">Clonezilla</span>
 <span class="bodytext">
-<br />You can use clonezilla which is intergrated tool to back your disk/partition. Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast, allows you to do bare metal backup and recovery. <a href="http://www.clonezilla.org" title="clonezilla" target="_blank" >go to clonezilla</a>
+<br />You can use clonezilla which is an integrated tool to back your disk/partition. Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast, allows you to do bare metal backup and recovery. <a href="http://www.clonezilla.org" title="clonezilla" target="_blank" >go to clonezilla</a>
 </span>
 </div>
 
