@@ -1,2 +1,0 @@
-partclone.github.com
-====================
