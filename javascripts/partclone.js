@@ -1,7 +1,11 @@
+    function loadLayout() {
+        $('#header').load("layout.html #header");
+        $('#footer').load("layout.html #footer");
+    }
     function loadContent(sourceUrl) {
         $('#content').load(""+sourceUrl+"");
     }
-    function updatehead() {
+    function updateHead() {
         $('head').append("<meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">");
         $('head').append("<meta name=\"author\" content=\"Thomas Tsai\" />");
         $('head').append("<meta http-equiv=\"Content-Type\" content=\"text/html\; charset=utf-8\" />");

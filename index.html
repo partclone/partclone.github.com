@@ -1,56 +1,15 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="author" content="Thomas Tsai" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-    <link href="http://freshmeat.net/projects/partclone/releases.atom" rel="alternate" title="freshmeat.net releases feed for Partclone" type="application/atom+xml" />
-    <link REL="SHORTCUT ICON" HREF="http://partclone.org/images/favicon.ico">
-    
-    <title>Partclone</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <script src="javascripts/jquery.js" type="text/javascript"></script>
-
+    <script src="javascripts/partclone.js" type="text/javascript"></script>
     <script type="text/javascript">
-	function loadContent(sourceUrl) {
-	    //$('#content').load(""+sourceUrl+"", function(){alert("debug load: "+sourceUrl)});
-	    $('#content').load(""+sourceUrl+"");
-	}
+	updateHead();;
     </script>
-
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <img src="images/partclone-easy-logo.png" height="110" alt="partclone-logo" />
-        <h1>Partclone</h1>
-        <p>Partclone provides utilities to backup a partition smartly and it is designed for higher compatibility of the file system by using existing library.</p>
-	
-	<p>
-	<a href="javascript:loadContent('index.html #content');">Home</a> | 
-	<a href="javascript:loadContent('news.html');">News</a> | 
-	<a href="javascript:loadContent('features.html');">Features</a> | 
-	<a href="javascript:loadContent('usage_all.html');">Usage</a> |
-	<a href="javascript:loadContent('download.html');">Download</a> |
-	<a href="javascript:loadContent('contact.html');">ContactUs</a> |
-	<a href="javascript:loadContent('donation.html');">Donation</a> |
-	</p>
-<ul>
-          <li><a href="https://github.com/Thomas-Tsai/partclone/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Thomas-Tsai/partclone/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Thomas-Tsai/partclone">View On <strong>GitHub</strong></a></li>
-</ul>
-
-
-      </header>
+    <div id="header"></div>
       <section>
       <div id=content>
         <h3>Welcome to Partclone</h3>
@@ -84,10 +43,11 @@
       </div>
       </section>
 
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/Thomas-Tsai">Thomas-Tsai</a>
-	Our other developers are Jazz Wang, Steven Shiau and Ceasar Sun. We release source code with GNU General Public License.</p><!--        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
-      </footer></div>
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
   </body>
