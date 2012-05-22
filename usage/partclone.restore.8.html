@@ -1,24 +1,24 @@
 Content-type: text/html
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<HTML><HEAD><TITLE>Man page of partclone.dd</TITLE>
+<HTML><HEAD><TITLE>Man page of partclone.restore</TITLE>
 </HEAD><BODY>
-<H1>partclone.dd</H1>
+<H1>partclone.restore</H1>
 Section: Maintenance Commands (8)<BR>Updated: Nov 2007<BR><A HREF="#index">Index</A>
 <A HREF="usage/">Return to Main Contents</A><HR>
 
 <A NAME="lbAB">&nbsp;</A>
 <H2>NAME</H2>
 
-partclone.dd - The utility to clone/restore raw file like dd.
+partclone.restore - The utility to restore an etx2/ext3 partition.
 <A NAME="lbAC">&nbsp;</A>
 <H2>SYNOPSIS</H2>
 
-partclone.dd [options]... [MODE] [SOURCE FILE] [OUTPUT FILE]
+partclone.restore [options]... [MODE] [SOURCE FILE] [OUTPUT FILE]
 <A NAME="lbAD">&nbsp;</A>
 <H2>DESCRIPTION</H2>
 
-<B>partclone.dd</B>
+<B>partclone.restore</B>
 
 is a part of Partclone project.
 Partclone is a project like the well-known backup utility &quot;Partition Image&quot; a.k.a partimage. Partclone provide utilities to back up used blocks and design for higher compatibility of the file system using supported library like e2fslibs.
@@ -30,71 +30,59 @@ Partclone is a project like the well-known backup utility &quot;Partition Image&
 
 <DD>
 Output FILE
-<DT><B>-O   --overwrite FILE</B>
+<DT><B>-O   --overwrite FILE   Output FILE, overwriting if exists</B>
 
 <DD>
-Output FILE, overwriting if exists
+--restore_row_file create special raw file for loop device
 <DT><B>-s,  --source FILE</B>
 
 <DD>
 Source FILE
-<DT><B>-L,  --logfile FILE     </B>
+<DT><B>-L,  --logfile FILE</B>
 
 <DD>
 Log FILE
-<DT><B>-c,  --clone            </B>
-
-<DD>
-Save to the special image format
-<DT><B>-r,  --restore          </B>
-
-<DD>
-Restore from the special image format
-<DT><B>-b,  --dev-to-dev       </B>
-
-<DD>
-Local device to device copy mode
-<DT><B>-R,  --rescue           </B>
-
-<DD>
-Continue after disk read errors
-<DT><B>-dX, --debug=X          </B>
+<DT><B>-dX, --debug=X</B>
 
 <DD>
 Set the debug level to X = [0|1|2]
-<DT><B>-C,  --no_check         </B>
+<DT><B>-C,  --no_check</B>
 
 <DD>
 Don't check device size and free space
-<DT><B>-X,  --dialog           </B>
+<DT><B>-X,  --dialog</B>
 
 <DD>
 Output message as Dialog Format
-<DT><B>-I,  --ignore_fschk     </B>
+<DT><B>-I,  --ignore_fschk</B>
 
 <DD>
 Ignore filesystem check
-<DT><B>--ignore_crc       </B>
+<DT><B>--ignore_crc</B>
 
 <DD>
 Ignore crc check error
-<DT><B>-F,  --force            </B>
+<DT><B>-F,  --force</B>
 
 <DD>
 Force progress
-<DT><B>-f,  --UI-fresh         </B>
+<DT><B>-f,  --UI-fresh</B>
 
 <DD>
 Fresh times of progress
-<DT><B>-q,  --quiet            </B>
+<DT><B>-m,  --max_block_cache</B>
 
 <DD>
-quiet mode, no progress update
-<DT><B>-v,  --version          </B>
+The used block will be cache until max number
+<DT><B>-q,  --quiet</B>
+
+<DD>
+Disable progress message
+<DT><B>-v,  --version</B>
 
 <DD>
 Display partclone version
-<DT><B>-h,  --help             </B>
+<DT><B>-h,  --help</B>
 
 <DD>
 Display this help
@@ -103,14 +91,17 @@ Display this help
 <H2>Examples:</H2>
 
 <P>
-clone /dev/hda1 to hda1.dd.img and display debug information.
+restore /dev/hda1 from hda1.img and display debug information.
 <P>
-partclone.dd -c -d -s /dev/hda1 -o hda1.dd.img
+partclone.restore -d -s hda1.img -o /dev/hda1
 <P>
-restore /dev/hda1 from hda1.dd.img and display debug information.
+restore image from clonezilla(split, gzip,) with stdin source
 <P>
-partclone.dd -r -d -s hda1.dd.img -o /dev/hda1
+cat sda1.ext3-ptcl-img.gz.a* &gt; gunzip -c | partclone.restore -d -s - -o /dev/sda1
 <P>
+restore raw image from partclone.dd
+<P>
+partclone.dd -d -c -s /dev/sda1 -o - | partclone.restore -d -s - -o /dev/sdb1
 <A NAME="lbAG">&nbsp;</A>
 <H2>REPORTING BUGS</H2>
 
@@ -142,6 +133,6 @@ This manual page was written by Thomas Tsai &lt;<A HREF="mailto:thomas@nchc.org.
 This document was created by
 <A HREF="usage/">man2html</A>,
 using the manual pages.<BR>
-Time: 00:20:21 GMT, May 22, 2012
+Time: 00:20:24 GMT, May 22, 2012
 </BODY>
 </HTML>

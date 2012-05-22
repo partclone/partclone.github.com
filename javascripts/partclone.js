@@ -2,6 +2,9 @@
         $('#header').load("layout.html #header");
         $('#footer').load("layout.html #footer");
     }
+    function loadUsage(sourceUrl) {
+        $('#usage').load(""+sourceUrl+"");
+    }
     function loadContent(sourceUrl) {
         $('#content').load(""+sourceUrl+"");
     }
