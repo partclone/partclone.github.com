@@ -3,7 +3,7 @@
         $('#footer').load("layout.html #footer");
     }
     function loadUsage(sourceUrl) {
-        $('#usage').load(""+sourceUrl+"");
+        $('#man_page').load(""+sourceUrl+"");
     }
     function loadContent(sourceUrl) {
         $('#content').load(""+sourceUrl+"");
