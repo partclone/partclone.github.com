@@ -18,7 +18,8 @@
 
 use strict;
 my $APPLY_FILE = shift;
-my $TMPL_FILE = "template.html";
+my $TMPL_FILE = "template-adv.html";
+#my $TMPL_FILE = "template.html";
 my ($TMPL_HEAD, $TMPL_TAIL, $SKIP) = load_block( $TMPL_FILE );
 my ($OLD_HEAD, $OLD_TAIL, $KEEP_CONTENT) = load_block( $APPLY_FILE );
 
