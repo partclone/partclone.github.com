@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{ font-size: 12px; font-family: Arial; }
+      </style>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+	</head>
+	<body>
+	  
+	  <b>Successful Response (should be blank):</b>
+	  <div id="success"></div>
+	  <b>Error Response:</b>
+	  <div id="error"></div>
+	    
+	    <script>
+	    $("#success").load("http://partclone.github.com/index2.html", function(response, status, xhr) {
+		  if (status == "error") {
+		          var msg = "Sorry but there was an error: ";
+			      $("#error").html(msg + xhr.status + " " + xhr.statusText);
+			        }
+	    });
+	      </script>
+
+	      </body>
+	      </html>
