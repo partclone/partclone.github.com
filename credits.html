@@ -9,23 +9,91 @@
   </head>
   <body>
     <div class="wrapper">
-      <header><div id="header"></div></header>
+    <div id="header"></div>
       <section>
-      <!-- replace template as new block which defined in layout.html-->
-      <div id="credits"></div>
-      <!-- done-->
-      </section>
-      <footer><div id="footer"></div></footer>
+      <!-- Thie is start of edit area -->
+      <div id="credits">
+        <h3>Credits</h3>
+	<h4>Team Members</h4>
+	<ul>
+	    <li>Thomas Tsai, developer</li>
+	    <li>Steven Hsiau, developer and team leader</li>
+	    <li>Ceasar Sun, documentation and support</li>
+	    <li>Jazz Wang, documentation and support</li>
+	</ul>
+	<h4>Contributors</h4>
+	<ul>
+	    <li>Georges Khaznadar, debian package</li>
+	    <li>Matthew Booth, source code patches</li>
+	    <li>Rommer, source code patches</li>
+	    <li>Yavor Nikolov, debug</li>
+	    <li>Cedric OLLIVIER, automake</li>
+	    <li>Paul J. Park, source code patches</li>
+	    <li>Felix Lechner, Ubuntu package</li>
+	    <li>Ian Abbott, source code patches</li>
+	    <li>Javor, source code patches</li>
+	    <li>Kristian Erik Hermansen, source code suggestion</li>
+	</ul>
+	<h4>Translators</h4>
+	<ul>
+	    <li>Cedric OLLIVIER, FR</li>
+	</ul>
+	<h4>Libraries</h4>
+	<ul>
+	    <li><a href="http://e2fsprogs.sourceforge.net" alt="link for ext2" target="_blank">e2fsprogs</a></li>
+	    <li><a href="https://reiser4.wiki.kernel.org" alt="link for reiserfs" target="_blank">reiserfs4progs</a></li>
+	    <li><a href="http://reiserfs.linux.kiev.ua/" alt="link for reiserfs third party library" target="_blank">libreiserfs</a></li>
+	    <li><a href="https://btrfs.wiki.kernel.org" alt="link for btrfs" target="_blank">btrfs-tools</a></li>
+	    <li><a href="http://dubeiko.com/development/FileSystems/HFSPLUS/tn1150.html" alt="apple tech report tn1150" target="_blank">hfs plus</a></li>
+	    <li><a href="http://en.wikipedia.org/wiki/File_Allocation_Table" alt="link of fat wikipedia" target="_blank">fat</a></li>
+	    <li><a href="http://www.tuxera.com/community/ntfs-3g-download/" alt="link for ntfs3g" target="_blank">ntfs3g</a></li>
+	    <li><a href="http://sourceforge.net/projects/linux-ntfs/" alt="link for ntfsprogs" target="_blank">ntfsprogs</a></li>
+	    <li><a href="http://glandium.org/projects/vmfs-tools/" alt="link for vmfs" target="_blank">vmfs-tools</a></li>
+	    <li><a href="http://packages.debian.org/sid/ufsutils" alt="link for ufs" target="_blank">ufs</a></li>
+	    <li><a href="http://jfs.sourceforge.net/" alt="link for jfs" target="_blank">jfs</a></li>
+	    <li><a href="http://xfs.org/" alt="link for xfs" target="_blank">xfs</a></li>
+	</ul>
+	<h4>Projects include partclone</h4>
+	<ul>
+	    <li><a href="http://drbl.org" alt="link for DRBL" target="_blank">DRBL</a></li>
+	    <li><a href="http://clonezilla.org" alt="link for Clonezilla" target="_blank">Clonezilla</a></li>
+	    <li><a href="http://www.idealworldinc.com/partclone-utils/" alt="link for partclone-utils" target="_blank">partclone-utils</a></li>
+	    <li><a href="http://redobackup.org/" alt="link for Redobackup" target="_blank">Redobackup</a></li>
+	    <li><a href="http://www.sysresccd.org/" alt="link for SystemRescueCd" target="_blank">SystemRescueCd</a></li>
+	    <li><a href="http://rip.7bf.de/current/" alt="link for R.I.P" target="_blank">(R)ecovery (I)s (P)ossible Linux rescue system</a></li>
+	    <li><a href="http://partedmagic.com" alt="link for PartedMagic" target="_blank">PartedMagic</a></li>
+	</ul>
+	<h4>Thanks</h4>
+	<ul>
+	    <li>Zoltan Kraus, btrfs bug report</li>
+	    <li>Graham Inggs, extfs bug report</li>
+	    <li>Randy Syring, Source code review and suggestion</li>
+	    <li>Barış Gerze, FreeBSD/UFS2 SUJ testing</li>
+	    <li>Marcos Felipe Rasia de Mello, , bug report for web pages</li>
+	    <li>horihel, <a href="http://sourceforge.net/tracker/?func=detail&atid=671650&aid=3509757&group_id=115473" alt="detail of bug report" target="_blank">...</a></li>
+	    <li>jeffcovey, <a href="http://freecode.com/projects/partclone/tickets/83386a97133" alt="detail of bug report" target="_blank">...</a></li>
+	    <li>Vincent van Adrighem, bug report for web pages</li>
+	    <li>tchavei, <a href="http://sourceforge.net/projects/partclone/forums/forum/638474/topic/4998836" alt="detail of story" target="_blank">story</a></li>
+	    <li>Björn Pfeiffer, bug report for web pages</li>
+	    <li>Christopher Dotson, bug report for web pages</li>
+	    <li>Azamat H. Hackimov, automake patches</li>
+	    <li>Arie Maaskant, bug report for web pages</li>
+	    <li>J Steel, news from ntfs-3g</li>
+	    <li>Piavl, bug report</li>
+	    <li>Nik Nyby, bug report</li>
+	    <li>m24578, bug report</li>
+	    <li>Gabor Z. Papp, bug report</li>
+	</ul>
+	<h4>Let me know if we're forgetting anyone</h4>
       </div>
+      <!-- Thie is end of edit area -->
+      </section>
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
-    <script type="text/javascript">
-	$(document).ready(function(){
-	loadLayout();
-	//<!-- replace template as new block which defined in layout.html-->
-	$('#credits').load('layout.html #credits');
-	//<!-- done-->
-	});
-    </script>
   </body>
 </html>

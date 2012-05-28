@@ -9,23 +9,42 @@
   </head>
   <body>
     <div class="wrapper">
-      <header><div id="header"></div></header>
+    <div id="header"></div>
       <section>
-      <!-- replace template as new block which defined in layout.html-->
-      <div id="help"></div>
-      <!-- done-->
-      </section>
-      <footer><div id="footer"></div></footer>
+      <div id="help">
+      <!-- Thie is start of edit area -->
+	<h3>Help</h3>
+	<img src="images/screen-of-partclone-tech-report.png" style="float: right; margin: 12px" border="1" />
+	<h4>FAQ</h4>
+	    <p>not yet ready</p>
+	<h4>Documents</h4>
+	<ul>
+	    <li>The tech report in chinese zh-TW <a href="paper/partclone-tech-report-2011.pdf" alt="download pdf version of tech report">[PDF]</a></li>
+	</ul>
+	<h4>Bug report</h4>
+	<ul>
+	    <li><a href="https://sourceforge.net/tracker/?func=browse&group_id=183378&atid=905000" target="_blank" alt="bug report to source forge" >Source forge bug report</a></li>
+	    <li><a href="https://github.com/Thomas-Tsai/partclone/issues" target="_blank" alt="bug report to github" >github issue tracking</a></li>
+	</ul>
+	<h4>Contact Us</h4>
+	<p>
+	<ul>
+	<li>IRC: There is an IRC channel for discussion about partclone development: <strong>#partclone</strong> on <strong>irc.xxxorg</strong>.</li>
+	<li>Mailing Lists: We use source forge mailing lists system and only for member of sourceforge can sent mail.<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=partclone-user" alt="mailing list of partclone">Mailing List</a></li>
+	<li>Forums: It's also source forge <a href="https://sourceforge.net/projects/partclone/forums" alt="forum of partclone">Forum</a></li>
+	<li>E-Mail: thomas _At_ nchc Dot org Dot tw</li>
+	</ul>
+	</p>
+      <!-- Thie is end of edit area -->
       </div>
+      </section>
+
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
-    <script type="text/javascript">
-	$(document).ready(function(){
-	loadLayout();
-	//<!-- replace template as new block which defined in layout.html-->
-	$('#help').load('layout.html #help');
-	//<!-- done-->
-	});
-    </script>
   </body>
 </html>

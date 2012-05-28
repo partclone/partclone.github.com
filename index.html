@@ -9,23 +9,49 @@
   </head>
   <body>
     <div class="wrapper">
-      <header><div id="header"></div></header>
+    <div id="header"></div>
       <section>
-      <!-- replace template as new block which defined in layout.html-->
-      <div id="index"></div>
-      <!-- done-->
-      </section>
-      <footer><div id="footer"></div></footer>
+      <div id="index">
+      <!-- Thie is start of edit area -->
+        <h3>Welcome to Partclone</h3>
+
+	<p>Partclone is a project similar to the well-known backup utility "Partition Image" a.k.a partimage. Partclone provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.</p>
+
+	<p>Partclone now supports ext2, ext3, hfs+, reiser3.5, reiser3.6, reiser4, ext4 and btrfs.We made some utilies:</p>
+
+	<pre>
+	partclone.btrfs
+	partclone.ext2, partclone.ext3, partclone.ext4
+	partclone.fat32, partclone.fat12, partclone.fat16
+	partclone.hfsp
+	partclone.jfs
+	partclone.ntfs
+	partclone.reiserfs
+	partclone.reiser4
+	partclone.ufs (with SU+J)
+	partclone.vmfs (v3 and v5)
+	partclone.xfs
+	</pre>
+
+	<h3>Our Team Information</h3>
+
+	<p>
+	Project Admins: Thomas_Tsai <br />
+	Co-developer: Jazz Yao-Tsung Wang, Steven Shiau, Ceasar Sun<br />
+	Operating System: Linux<br />
+	License: GNU General Public License (GPL)<br />
+	Related Project:  Diskless Remote Boot Linux (a.k.a DRBL),  Clonezilla <br />
+
+	</p>
+      <!-- Thie is end of edit area -->
       </div>
+      </section>
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
-    <script type="text/javascript">
-	$(document).ready(function(){
-	loadLayout();
-	//<!-- replace template as new block which defined in layout.html-->
-	$('#index').load('layout.html #index');
-	//<!-- done-->
-	});
-    </script>
   </body>
 </html>

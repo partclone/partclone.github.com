@@ -9,25 +9,25 @@
   </head>
   <body>
     <div class="wrapper">
-      <header><div id="header"></div></header>
+    <div id="header"></div>
       <section>
-      <!-- replace template as new block which defined in layout.html-->
-      <div id="news"></div>
-      <div id="sf_news"> Loading...</div>
-      <!-- done-->
-      </section>
-      <footer><div id="footer"></div></footer>
+      <div id="news">
+      <!-- Thie is start of edit area -->
+        <h3>Auto load from SourceForge</h3>
+	<div align="right"><a href="http://sourceforge.net/news/?group_id=183378">read more</a></div>
+	<div id="sf_news"> Loading...</div>
+	<script type="text/javascript">
+	    $('#sf_news').load('http://sourceforge.net/news/?group_id=183378 #feedList');    
+	</script>
+	<!-- Thie is end of edit area -->
       </div>
+      </section>
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
-    <script type="text/javascript">
-	$(document).ready(function(){
-	loadLayout();
-	//<!-- replace template as new block which defined in layout.html-->
-	$('#news').load('layout.html #news');
-	$('#sf_news').load('http://sourceforge.net/news/?group_id=183378 #feedList');    
-	//<!-- done-->
-	});
-    </script>
   </body>
 </html>

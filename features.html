@@ -9,23 +9,140 @@
   </head>
   <body>
     <div class="wrapper">
-      <header><div id="header"></div></header>
+    <div id="header"></div>
       <section>
-      <!-- replace template as new block which defined in layout.html-->
-      <div id="features"></div>
-      <!-- done-->
-      </section>
-      <footer><div id="footer"></div></footer>
+      <div id="features">
+      <!-- Thie is start of edit area -->
+	    <h3>Features</h3>
+	    <p><strong>Partclone</strong> provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.</p>
+	    <p><img src="images/partclone-small.png" style="float: right; margin: 12px" /><strong>Partclone</strong> try to support all file systems in the world. We spend much time to do this and continual develop for new file systame. Partclone is an <strong>image engine,</strong> not only <strong>clone</strong> file system to image or <strong>restore</strong> from image, but also <strong>duplicate</strong> devices. It also support <strong>pipe, stdin and stdout</strong> which is helpful for advanced administrator to script special features via partclone utilities. For <strong>rescue</strong> situation, our rescue mode can skip broken blocks and backup all healthy block to save your device. Ddrescue is better to save broken data with partclone which support list all used blocks as <strong>domain file</strong> to make ddrescue smarter and faster. All Partclone utilities is text mode and <strong>ncurses</strong> interface, if you prefer save more resource, <strong>quiet mode</strong> is also nice. All backup blocks is vertified by <strong>crc32</strong> to make sure your data is correct. Please check our <a href="usage_all.html" alt="usage of partclone" ><strong>usage</strong></a> to get more information.</p>
+
+	    <p><h3>Supported Filesystem</h3>
+	    <table>
+	    <tr>
+	    <th>FS</th>
+	    <th>Library</th>
+	    <th>Utility</th>
+	    </tr>
+	    <tr>
+	    <td>Btrfs</td>
+	    <td>btrfs-tools</td>
+	    <td>partclone.btrfs</td>
+	    </tr>
+	    <tr>
+	    <td>Ext2</td>
+	    <td>e2fsprogs</td>
+	    <td>partclone.ext2 or partclone.extfs</td>
+	    </tr>
+	    <tr>
+	    <td>Ext3</td>
+	    <td>e2fsprogs</td>
+	    <td>partclone.ext3 or partclone.extfs</td>
+	    </tr>
+	    <tr>
+	    <td>Ext4</td>
+	    <td>e2fsprogs</td>
+	    <td>partclone.ext4 or partclone.extfs</td>
+	    </tr>
+	    <tr>
+	    <td>Reiserfs</td>
+	    <td>libreiserfs</td>
+	    <td>partclone.reiserfs</td>
+	    </tr>
+	    <tr>
+	    <td>Reiser4</td>
+	    <td>reiser4progs</td>
+	    <td>partclone.reiser4</td>
+	    </tr>
+	    <tr>
+	    <td>XFS</td>
+	    <td>xfslibs</td>
+	    <td>partclone.xfs</td>
+	    </tr>
+	    <tr>
+	    <td>JFS</td>
+	    <td>jfsutils</td>
+	    <td>partclone.jfs</td>
+	    </tr>
+	    <tr>
+	    <td>NTFS</td>
+	    <td>ntfsprogs</td>
+	    <td>partclone.ntfs</td>
+	    </tr>
+	    <tr>
+	    <td>FAT 12</td>
+	    <td>X</td>
+	    <td>partclone.fat12 or partclone.vfat</td>
+	    </tr>
+	    <tr>
+	    <td>FAT 16</td>
+	    <td>X</td>
+	    <td>partclone.fat16 or partclone.vfat</td>
+	    </tr>
+	    <tr>
+	    <td>FAT 32</td>
+	    <td>X</td>
+	    <td>partclone.fat32 or partclone.vfat</td>
+	    </tr>
+	    <tr>
+	    <td>HFS plus</td>
+	    <td>X(ref:HFS Plus Volume Format)</td>
+	    <td>partclone.hfsplus , partclone.hfsp or partclone.hfs+</td>
+	    </tr>
+	    <tr>
+	    <td>UFS2</td>
+	    <td>ufsutilies</td>
+	    <td>partclone.ufs</td>
+	    </tr>
+	    <tr>
+	    <td>VMFS</td>
+	    <td>vmfstools</td>
+	    <td>partclone.vmfs</td>
+	    </tr>
+	    </table>
+	    <h3>Other Feature</h3>
+	    <table>
+	    <tr>
+	    <td>dd</td>
+	    <td>raw copy any file</td>
+	    <td>partclone.dd</td>
+	    </tr>
+	    <tr>
+	    <td>imgchk</td>
+	    <td>check image file</td>
+	    <td>partclone.chkimg</td>
+	    </tr>
+	    <tr>
+	    <td>imginfo</td>
+	    <td>list image head information</td>
+	    <td>partclone.info</td>
+	    </tr>
+	    <tr>
+	    <td>restore</td>
+	    <td>restore any image made from partclone</td>
+	    <td>partclone.restore</td>
+	    </tr>
+	    <tr>
+	    <td>ntfs reloc</td>
+	    <td>deals with braindeadness with moving NTFS filesystems</td>
+	    <td>partclone.ntfsreloc</td>
+	    </tr>
+	    <tr>
+	    <td>vmfs type</td>
+	    <td>get vmfs type</td>
+	    <td>partclone.VMFS_volume_member</td>
+	    </tr>
+	    </table></p>
+      <!-- Thie is end of edit area -->
       </div>
+      </section>
+
+      <div id="footer"></div>
+      </div>
+    <script type="text/javascript">
+	loadLayout();
+    </script>
     <script src="javascripts/scale.fix.js"></script>
     
-    <script type="text/javascript">
-	$(document).ready(function(){
-	loadLayout();
-	//<!-- replace template as new block which defined in layout.html-->
-	$('#features').load('layout.html #features');
-	//<!-- done-->
-	});
-    </script>
   </body>
 </html>
