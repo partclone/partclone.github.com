@@ -2,7 +2,18 @@
 
 <div class="panel" align="justify"> <span class="orangetitle">Donation</span>
 <span class="bodytext">
-<p><a href="http://sourceforge.net/donate/index.php?group_id=183378"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a><P>
+<p><a href="http://sourceforge.net/donate/index.php?group_id=183378"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a></p>
+
+<p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+Donate via PayPal: <input name="amount" value="5" type="radio"> $5 <input name="amount" value="10" type="radio"> $10 <input name="amount" value="20" type="radio"> $20  <input name="amount" value="50" type="radio"> $50 <input name="amount" value="" type="radio"> Other
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="tlinux.tsai@gmail.com">
+<input type="hidden" name="item_name" value="partclone.org">
+<input name="submit" class="button" value="Donate!" type="submit">
+</form>
+</P
+
 <p>If you use Partclone and it does the job for you, please donate to help us to make Partclone better.</p>
 <p><strong>How to add link here:</strong><br />
 We want to say THANK YOU for all contributer, and list all received donation below. Since receiving your donation, we will send mail and list here. If you prefer assigne different arch text and link url, please just reply mail to us.</p>
