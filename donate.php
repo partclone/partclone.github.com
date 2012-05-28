@@ -1,1 +1,3 @@
-header("Location: donate.html");
+<?php 
+    header("Location: donate.html"); 
+?>
