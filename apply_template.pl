@@ -18,7 +18,7 @@
 
 use strict;
 my $APPLY_FILE = shift;
-my $TMPL_FILE = "template-adv.html";
+my $TMPL_FILE = "template.html";
 #my $TMPL_FILE = "template.html";
 my ($TMPL_HEAD, $TMPL_TAIL, $SKIP) = load_block( $TMPL_FILE );
 my ($OLD_HEAD, $OLD_TAIL, $KEEP_CONTENT) = load_block( $APPLY_FILE );
@@ -35,8 +35,8 @@ sub load_block {
     open(LOAD, $LOAD_FILE) || die "Can't open file $LOAD_FILE : $!\n";
 
 
-    my $ph="Thie is start of edit area";
-    my $pt="Thie is end of edit area";
+    my $ph="The start of edit area 2cce8a";
+    my $pt="The end of edit area 2cce8a";
 
     my $head_content="";
     my $tail_content="";
@@ -73,7 +73,7 @@ sub load_block {
 
 
     if ( $support != 1 ){
-        print "file format not support\n";
+        print "file $LOAD_FILE format not support\n";
         exit;        
     } else {
         return $head_content, $tail_content, $main_content;

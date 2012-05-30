@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+  <head>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="author" content="Thomas Tsai" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="http://freshmeat.net/projects/partclone/releases.atom" rel="alternate" title="freshmeat.net releases feed for Partclone" type="application/atom+xml" />
+        <link REL="SHORTCUT ICON" HREF="http://partclone.org/images/favicon.ico">
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+        <title>Partclone</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- The start of header block  -->
+      <div id="header">
+      <header>
+        <a href="index.html" alt="partclone home page"><img src="images/partclone-easy-logo.png" height="110" alt="partclone-logo" /></a>
+        <h1>Partclone</h1>
+        <p>Partclone provides utilities to smartly backup partitions. Partclone is written in C and designed for higher compatibility by using existing file system library.</p>
+	<ul>
+          <li><a href="https://github.com/Thomas-Tsai/partclone" target="blank" alt="View partclone source code on github">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/Thomas-Tsai/partclone/tarball/stable" alt="Download latest develop version">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://clonezilla.org" target="blank" alt="Clonezilla is based on partclone to image or clone a partition">Clonezilla<strong>TryOut</strong></a></li>
+	</ul>
+	
+	<p>
+	<a href="index.html">Home</a> | 
+	<a href="news.html">News</a> | 
+	<a href="features.html">Features</a> | 
+	<a href="usage_all.html">Usage</a> |
+	<a href="download.html">Download</a> |
+	<a href="help.html">Help</a> |
+	<a href="donate.html">Donation</a> |
+	<a href="credits.html">Crdits</a> 
+	</p>
+      </header>
+      </div>
+      <!-- The end of header block  -->
+      <section>
+      <!-- The start of edit area 2cce8a -->
+
+<a name="idp84816"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2>Name</h2>
+<p>partclone.info —  The utility to show image head information.</p>
+</div>
+<div class="refsynopsisdiv" title="Synopsis">
+<h2>Synopsis</h2>
+<div class="cmdsynopsis"><p><code class="command">partclone.info</code>  {
+	<em class="replaceable"><code>FILE</code></em>
+      }</p></div>
+</div>
+<div class="refsect1" title="DESCRIPTION">
+<a name="description"></a><h2>DESCRIPTION</h2>
+<p><span class="command"><strong>partclone.info</strong></span> is a part of <span class="command"><strong>Partclone</strong></span> project to retrive partition head information from image file. Partclone provide utilities to backup used blocks and design for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read the used block of ext2 partition.</p>
+<p><span class="command"><strong>Partclone</strong></span> supported file system include btrfs, ext2, ext3, ext4, reiserfs, reiser4, xfs and jfs for LINUX. Also  support some non-linux operation system, ex: NTFS and  FAT (for Windows), HFS plus(APPLE MAC OS), UFS2(FreeBSD), VMFS(VMWare Vsphere).
+    </p>
+<p>All partclone utils could be run like partclone.xxx is very smiliar fsck or mkfs. For example, for backup/restore hfsplus, just run partclone.hfsp.
+    </p>
+<div class="segmentedlist">
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>btrfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.btrfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>ext2 | ext3 | ext4</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.ext2 | partclone.ext3 | partclone.ext4</div>
+</div>
+<div class="seglistitem">
+<div class="seg"><strong><span class="segtitle">File System: </span></strong></div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.extfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>reiserfs 3.5</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.reiserfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>reiser 4</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.reiser4</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>xfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.xfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>ufs | ufs2</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.ufs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>jfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.jfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>hfs plusfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.hfs+ | partclone.hfsplus</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>vmfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.vmfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>ntfs</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.ntfs</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">File System: </span></strong>fat12 | fat16 | fat32</div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.fat12 | partclone.fat16 | partclone.fat32</div>
+</div>
+<div class="seglistitem">
+<div class="seg"><strong><span class="segtitle">File System: </span></strong></div>
+<div class="seg">
+<strong><span class="segtitle">partclone.xxx: </span></strong>partclone.vfat</div>
+</div>
+</div>
+<p>
+    </p>
+</div>
+<div class="refsect1" title="OPTIONS">
+<a name="options"></a><h2>OPTIONS</h2>
+<p>The program follows the usual GNU command line syntax,
+      with long options starting with two dashes (`-').  A summary of
+      options is included below.</p>
+<div class="variablelist"><dl>
+<dt><span class="term"><code class="option"><em class="replaceable"><code>FILE</code></em></code></span></dt>
+<dd><p>Image FILE. The FILE could be a image file(made by partclone).</p></dd>
+</dl></div>
+</div>
+<div class="refsect1" title="EXAMPLES">
+<a name="examples"></a><h2>EXAMPLES</h2>
+<pre class="screen">
+  Retriving partition usage information
+    partclone.info /home/partimag/sdb2.img
+    Partclone v0.2.20 http://partclone.org
+    File system:  EXTFS
+    Device size:  928.0 MB
+    Space in use: 535.4 MB
+    Free Space:   392.6 MB
+    Block size:   4096 Byte
+    Used block :  130708
+    </pre>
+</div>
+<div class="refsect1" title="DIAGNOSTICS">
+<a name="diagnostics"></a><h2>DIAGNOSTICS</h2>
+<p>The following diagnostics may be issued
+      on <code class="filename">stderr</code>:</p>
+<p><span class="command"><strong>partclone.info</strong></span> provides some return codes, that can
+      be used in scripts:</p>
+<div class="segmentedlist">
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">Code: </span></strong><span class="errorcode">0</span>
+</div>
+<div class="seg">
+<strong><span class="segtitle">Diagnostic: </span></strong>Program exited successfully.</div>
+</div>
+<div class="seglistitem">
+<div class="seg">
+<strong><span class="segtitle">Code: </span></strong><span class="errorcode">1</span>
+</div>
+<div class="seg">
+<strong><span class="segtitle">Diagnostic: </span></strong>Clone or Restore seem failed.</div>
+</div>
+</div>
+</div>
+<div class="refsect1" title="BUGS">
+<a name="bugs"></a><h2>BUGS</h2>
+<p>Report bugs to thomas@nchc.org.tw or <a class="ulink" href="http://partclone.org" target="_top">http://partclone.org</a>.</p>
+<p>You can get support at http://partclone.org</p>
+</div>
+<div class="refsect1" title="SEE ALSO">
+<a name="see_also"></a><h2>SEE ALSO</h2>
+<p>
+    <span class="citerefentry"><span class="refentrytitle">partclone.chkimg</span>(8)</span>, <span class="citerefentry"><span class="refentrytitle">partclone.restore</span>(8)</span>, <span class="citerefentry"><span class="refentrytitle">partclone.dd</span>(8)</span>, <span class="citerefentry"><span class="refentrytitle">partclone.info</span>(8)</span>
+      </p>
+</div>
+
+      <!-- The end of edit area 2cce8a -->
+      <script type="text/javascript">
+      <!--
+      google_ad_client = "pub-9507710613356481";
+      /* 728x90, 已建立 2009/5/10 */
+      google_ad_slot = "2482010893";
+      google_ad_width = 728;
+      google_ad_height = 90;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+      <br />
+      <script type="text/javascript">
+      <!--
+      google_ad_client = "pub-9507710613356481";
+      /* 728x90, figure,  2009/5/11 */
+      google_ad_slot = "9508274001";
+      google_ad_width = 728;
+      google_ad_height = 90;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+      </section>
+      <!-- The start of footer block  -->
+      <div id="footer">
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Thomas-Tsai">Thomas-Tsai</a>
+	Our other developers are Jazz Wang, Steven Shiau and Ceasar Sun. We release source code with GNU General Public License.<small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+      <!-- The end of footer block  -->
+      </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
+
