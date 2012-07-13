@@ -43,14 +43,6 @@
 
 <h3>Welcome to Partclone Usage</h3>
 <p>partclone.[ <a href="partclone.xml.html">[fstype]</a> | <a href="partclone.restore.xml.html">restore</a> | <a href="partclone.dd.xml.html">dd</a> | <a href="partclone.chkimg.xml.html">chkimg</a> | <a href="partclone.info.xml.html">info</a> ]</p>
-<a name="idp84792"></a><div class="titlepage"></div>
-<div class="refnamediv">
-<h2>Name</h2>
-<p>partclone.dd — unsupported file system backup utility.(like `dd` )</p>
-</div>
-<div class="refsynopsisdiv" title="Synopsis">
-<h2>Synopsis</h2>
-<div class="cmdsynopsis"><p><code class="command">partclone.dd</code>  {
 	[ <code class="option">-c</code>  |   <code class="option">--clone</code> ]
 	 [ <code class="option">-r</code>  |   <code class="option">--restore</code> ]
 	 [ <code class="option">-b</code>  |   <code class="option">--dev-to-dev</code> ]
@@ -75,160 +67,19 @@
 	 [ <code class="option">-R</code>  |   <code class="option">--rescue</code> ]
 	 [ <code class="option">-L</code>  |   <code class="option">--logfile</code> ]
 	<em class="replaceable"><code>logfile</code></em>
-	]</p></div>
-</div>
-<div class="refsect1" title="DESCRIPTION">
-<a name="description"></a><h2>DESCRIPTION</h2>
-<p><span class="command"><strong>partclone.dd</strong></span> is a part of <span class="command"><strong>Partclone</strong></span> project to clone unsupported file system with dd method. It will backup all block from partition.
-    Partclone provide utilities to backup used blocks and design for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read the used block of ext2 partition.</p>
-<p><span class="command"><strong>Partclone</strong></span> supported file system include btrfs, ext2, ext3, ext4, reiserfs, reiser4, xfs and jfs for LINUX. Also  support some non-linux operation system, ex: NTFS and  FAT (for Windows), HFS plus(APPLE MAC OS), UFS2(FreeBSD), VMFS(VMWare Vsphere). All partclone utils could be run like partclone.xxx is very smiliar fsck or mkfs. For example, for backup/restore hfsplus, just run partclone.hfsp.
-    </p>
-</div>
-<div class="refsect1" title="OPTIONS">
-<a name="options"></a><h2>OPTIONS</h2>
-<p>The program follows the usual GNU command line syntax,
+	]</p></div></div><div class="refsect1" title="DESCRIPTION"><a name="description"></a><h2>DESCRIPTION</h2><p><span class="command"><strong>partclone.dd</strong></span> is a part of <span class="command"><strong>Partclone</strong></span> project to clone unsupported file system with dd method. It will backup all block from partition.
+    Partclone provide utilities to backup used blocks and design for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read the used block of ext2 partition.</p><p><span class="command"><strong>Partclone</strong></span> supported file system include btrfs, ext2, ext3, ext4, reiserfs, reiser4, xfs and jfs for LINUX. Also  support some non-linux operation system, ex: NTFS and  FAT (for Windows), HFS plus(APPLE MAC OS), UFS2(FreeBSD), VMFS(VMWare Vsphere). All partclone utils could be run like partclone.xxx is very smiliar fsck or mkfs. For example, for backup/restore hfsplus, just run partclone.hfsp.
+    </p></div><div class="refsect1" title="OPTIONS"><a name="options"></a><h2>OPTIONS</h2><p>The program follows the usual GNU command line syntax,
       with long options starting with two dashes (`-').  A summary of
-      options is included below.</p>
-<div class="variablelist"><dl>
-<dt>
-<span class="term"><code class="option">-s <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--source <em class="replaceable"><code>FILE</code></em></code></span>
-</dt>
-<dd>
-<p>Source FILE. The FILE could be a image file(made by partclone) or device depend on your action. Normanly, backup source is device, restore source is image file.</p>
-<p>Receving data from pipe line is supported ONLY for restoring, just ignore -s option or use '-' means receive data from stdin.</p>
-</dd>
-<dt>
-<span class="term"><code class="option">-o <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--output <em class="replaceable"><code>FILE</code></em></code></span>
-</dt>
-<dd>
-<p>Output FILE. The FILE could be a image file(partclone will generate) or device depend on your action. Normanly, backup output to image file and restore output to device.</p>
-<p>Sending data to pipe line is also supported ONLY for back-up, just ignore -o option or use '-' means send data to stdout.</p>
-</dd>
-<dt>
-<span class="term"><code class="option">-O <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--overwrite <em class="replaceable"><code>FILE</code></em></code></span>
-</dt>
-<dd><p>Overwrite FILE, overwriting if exists.</p></dd>
-<dt>
-<span class="term"><code class="option">-c</code>, </span><span class="term"><code class="option">--clone</code></span>
-</dt>
-<dd><p>Save partition to the special image format.</p></dd>
-<dt>
-<span class="term"><code class="option">-r</code>, </span><span class="term"><code class="option">--restore</code></span>
-</dt>
-<dd><p>Restore partition from the special image format.</p></dd>
-<dt>
-<span class="term"><code class="option">-b</code>, </span><span class="term"><code class="option">--dev-to-dev</code></span>
-</dt>
-<dd><p>Local device to device copy on-the-fly, source and output both are device.</p></dd>
-<dt><span class="term"><code class="option">--restore_row_file</code></span></dt>
-<dd><p>Creating special raw file for loop device.</p></dd>
-<dt>
-<span class="term"><code class="option">-l <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--logfile <em class="replaceable"><code>FILE</code></em></code></span>
-</dt>
-<dd><p>put special path to record partclone log information.(default /var/log/partclone.log)</p></dd>
-<dt>
-<span class="term"><code class="option">-R</code>, </span><span class="term"><code class="option">--rescue</code></span>
-</dt>
-<dd><p>Continue after disk read errors.</p></dd>
-<dt>
-<span class="term"><code class="option">-C</code>, </span><span class="term"><code class="option">--no_check</code></span>
-</dt>
-<dd><p>Don't check device size and free space.</p></dd>
-<dt>
-<span class="term"><code class="option">-N</code>, </span><span class="term"><code class="option">--ncurse</code></span>
-</dt>
-<dd><p>Using Ncurses Text User Interface.</p></dd>
-<dt>
-<span class="term"><code class="option">-X</code>, </span><span class="term"><code class="option">--dialog</code></span>
-</dt>
-<dd><p>Output message as Dialog Format.</p></dd>
-<dt>
-<span class="term"><code class="option">-I</code>, </span><span class="term"><code class="option">--ignore_fschk</code></span>
-</dt>
-<dd><p>Ignore filesystem check.</p></dd>
-<dt><span class="term"><code class="option">--ignore_crc</code></span></dt>
-<dd><p>Ignore crc check error.</p></dd>
-<dt>
-<span class="term"><code class="option">-F</code>, </span><span class="term"><code class="option">--force</code></span>
-</dt>
-<dd><p>Force progress.</p></dd>
-<dt>
-<span class="term"><code class="option">-f <em class="replaceable"><code>sec</code></em></code>, </span><span class="term"><code class="option">--UI-fresh <em class="replaceable"><code>sec</code></em></code></span>
-</dt>
-<dd><p>put special second to different interval.</p></dd>
-<dt>
-<span class="term"><code class="option">-m <em class="replaceable"><code>max</code></em></code>, </span><span class="term"><code class="option">--max_block_cache <em class="replaceable"><code>max</code></em></code></span>
-</dt>
-<dd><p>The used block will be cache until max number.</p></dd>
-<dt>
-<span class="term"><code class="option">-q</code>, </span><span class="term"><code class="option">--quiet</code></span>
-</dt>
-<dd><p>Disable progress message.</p></dd>
-<dt>
-<span class="term"><code class="option">-d<em class="replaceable"><code>level</code></em></code>, </span><span class="term"><code class="option">--debug <em class="replaceable"><code>level</code></em></code></span>
-</dt>
-<dd><p>Set the debug level [1|2|3]</p></dd>
-<dt>
-<span class="term"><code class="option">-h</code>, </span><span class="term"><code class="option">--help</code></span>
-</dt>
-<dd><p>Show summary of options.</p></dd>
-<dt>
-<span class="term"><code class="option">-v</code>, </span><span class="term"><code class="option">--version</code></span>
-</dt>
-<dd><p>Show version of program.</p></dd>
-</dl></div>
-</div>
-<div class="refsect1" title="FILES">
-<a name="files"></a><h2>FILES</h2>
-<div class="variablelist"><dl>
-<dt><span class="term"><code class="filename">/var/log/partclone.log</code></span></dt>
-<dd><p>The log file  of <span class="application">partclone.dd</span></p></dd>
-</dl></div>
-</div>
-<div class="refsect1" title="EXAMPLES">
-<a name="examples"></a><h2>EXAMPLES</h2>
-<pre class="screen">
+      options is included below.</p><div class="variablelist"><dl><dt><span class="term"><code class="option">-s <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--source <em class="replaceable"><code>FILE</code></em></code></span></dt><dd><p>Source FILE. The FILE could be a image file(made by partclone) or device depend on your action. Normanly, backup source is device, restore source is image file.</p><p>Receving data from pipe line is supported ONLY for restoring, just ignore -s option or use '-' means receive data from stdin.</p></dd><dt><span class="term"><code class="option">-o <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--output <em class="replaceable"><code>FILE</code></em></code></span></dt><dd><p>Output FILE. The FILE could be a image file(partclone will generate) or device depend on your action. Normanly, backup output to image file and restore output to device.</p><p>Sending data to pipe line is also supported ONLY for back-up, just ignore -o option or use '-' means send data to stdout.</p></dd><dt><span class="term"><code class="option">-O <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--overwrite <em class="replaceable"><code>FILE</code></em></code></span></dt><dd><p>Overwrite FILE, overwriting if exists.</p></dd><dt><span class="term"><code class="option">-c</code>, </span><span class="term"><code class="option">--clone</code></span></dt><dd><p>Save partition to the special image format.</p></dd><dt><span class="term"><code class="option">-r</code>, </span><span class="term"><code class="option">--restore</code></span></dt><dd><p>Restore partition from the special image format.</p></dd><dt><span class="term"><code class="option">-b</code>, </span><span class="term"><code class="option">--dev-to-dev</code></span></dt><dd><p>Local device to device copy on-the-fly, source and output both are device.</p></dd><dt><span class="term"><code class="option">--restore_row_file</code></span></dt><dd><p>Creating special raw file for loop device.</p></dd><dt><span class="term"><code class="option">-l <em class="replaceable"><code>FILE</code></em></code>, </span><span class="term"><code class="option">--logfile <em class="replaceable"><code>FILE</code></em></code></span></dt><dd><p>put special path to record partclone log information.(default /var/log/partclone.log)</p></dd><dt><span class="term"><code class="option">-R</code>, </span><span class="term"><code class="option">--rescue</code></span></dt><dd><p>Continue after disk read errors.</p></dd><dt><span class="term"><code class="option">-C</code>, </span><span class="term"><code class="option">--no_check</code></span></dt><dd><p>Don't check device size and free space.</p></dd><dt><span class="term"><code class="option">-N</code>, </span><span class="term"><code class="option">--ncurse</code></span></dt><dd><p>Using Ncurses Text User Interface.</p></dd><dt><span class="term"><code class="option">-X</code>, </span><span class="term"><code class="option">--dialog</code></span></dt><dd><p>Output message as Dialog Format.</p></dd><dt><span class="term"><code class="option">-I</code>, </span><span class="term"><code class="option">--ignore_fschk</code></span></dt><dd><p>Ignore filesystem check.</p></dd><dt><span class="term"><code class="option">--ignore_crc</code></span></dt><dd><p>Ignore crc check error.</p></dd><dt><span class="term"><code class="option">-F</code>, </span><span class="term"><code class="option">--force</code></span></dt><dd><p>Force progress.</p></dd><dt><span class="term"><code class="option">-f <em class="replaceable"><code>sec</code></em></code>, </span><span class="term"><code class="option">--UI-fresh <em class="replaceable"><code>sec</code></em></code></span></dt><dd><p>put special second to different interval.</p></dd><dt><span class="term"><code class="option">-m <em class="replaceable"><code>max</code></em></code>, </span><span class="term"><code class="option">--max_block_cache <em class="replaceable"><code>max</code></em></code></span></dt><dd><p>The used block will be cache until max number.</p></dd><dt><span class="term"><code class="option">-q</code>, </span><span class="term"><code class="option">--quiet</code></span></dt><dd><p>Disable progress message.</p></dd><dt><span class="term"><code class="option">-d<em class="replaceable"><code>level</code></em></code>, </span><span class="term"><code class="option">--debug <em class="replaceable"><code>level</code></em></code></span></dt><dd><p>Set the debug level [1|2|3]</p></dd><dt><span class="term"><code class="option">-h</code>, </span><span class="term"><code class="option">--help</code></span></dt><dd><p>Show summary of options.</p></dd><dt><span class="term"><code class="option">-v</code>, </span><span class="term"><code class="option">--version</code></span></dt><dd><p>Show version of program.</p></dd></dl></div></div><div class="refsect1" title="FILES"><a name="files"></a><h2>FILES</h2><div class="variablelist"><dl><dt><span class="term"><code class="filename">/var/log/partclone.log</code></span></dt><dd><p>The log file  of <span class="application">partclone.dd</span></p></dd></dl></div></div><div class="refsect1" title="EXAMPLES"><a name="examples"></a><h2>EXAMPLES</h2><pre class="screen">
  clone /dev/hda1 to hda1.dd.img and display debug information.
    partclone.dd -c -d -s /dev/hda1 -o hda1.dd.img
  restore /dev/hda1 from hda1.dd.img and display debug information.
    partclone.dd -r -d -s hda1.dd.img -o /dev/hda1
-    </pre>
-</div>
-<div class="refsect1" title="DIAGNOSTICS">
-<a name="diagnostics"></a><h2>DIAGNOSTICS</h2>
-<p>The following diagnostics may be issued
-      on <code class="filename">stderr</code>:</p>
-<div class="variablelist"><dl></dl></div>
-<p><span class="command"><strong>partclone.dd</strong></span> provides some return codes, that can
-      be used in scripts:</p>
-<div class="segmentedlist">
-<div class="seglistitem">
-<div class="seg">
-<strong><span class="segtitle">Code: </span></strong><span class="errorcode">0</span>
-</div>
-<div class="seg">
-<strong><span class="segtitle">Diagnostic: </span></strong>Program exited successfully.</div>
-</div>
-<div class="seglistitem">
-<div class="seg">
-<strong><span class="segtitle">Code: </span></strong><span class="errorcode">1</span>
-</div>
-<div class="seg">
-<strong><span class="segtitle">Diagnostic: </span></strong>Clone or Restore seem failed.</div>
-</div>
-</div>
-</div>
-<div class="refsect1" title="BUGS">
-<a name="bugs"></a><h2>BUGS</h2>
-<p>Report bugs to thomas@nchc.org.tw or <a class="ulink" href="http://partclone.org" target="_top">http://partclone.org</a>.</p>
-<p>You can get support at http://partclone.org</p>
-</div>
-<div class="refsect1" title="SEE ALSO">
-<a name="see_also"></a><h2>SEE ALSO</h2>
-<p>
+    </pre></div><div class="refsect1" title="DIAGNOSTICS"><a name="diagnostics"></a><h2>DIAGNOSTICS</h2><p>The following diagnostics may be issued
+      on <code class="filename">stderr</code>:</p><div class="variablelist"><dl></dl></div><p><span class="command"><strong>partclone.dd</strong></span> provides some return codes, that can
+      be used in scripts:</p><div class="segmentedlist"><div class="seglistitem"><div class="seg"><strong><span class="segtitle">Code: </span></strong><span class="errorcode">0</span></div><div class="seg"><strong><span class="segtitle">Diagnostic: </span></strong>Program exited successfully.</div></div><div class="seglistitem"><div class="seg"><strong><span class="segtitle">Code: </span></strong><span class="errorcode">1</span></div><div class="seg"><strong><span class="segtitle">Diagnostic: </span></strong>Clone or Restore seem failed.</div></div></div></div><div class="refsect1" title="BUGS"><a name="bugs"></a><h2>BUGS</h2><p>Report bugs to thomas@nchc.org.tw or <a class="ulink" href="http://partclone.org" target="_top">http://partclone.org</a>.</p><p>You can get support at http://partclone.org</p></div><div class="refsect1" title="SEE ALSO"><a name="see_also"></a><h2>SEE ALSO</h2><p>
     <span class="citerefentry"><span class="refentrytitle"><a href="partclone.xml.html" alt="manual of partclone">partclone</a></span>(8)</span>, <span class="citerefentry"><span class="refentrytitle"><a href="partclone.chkimg.xml.html" alt="manual of partclone.chkimg">partclone.chkimg</a></span>(8)</span>, <span class="citerefentry"><span class="refentrytitle"><a href="partclone.restore.xml.html" alt="manual of partclone.restore">partclone.restore</a></span>(8)</span>, <span class="citerefentry"><span class="refentrytitle"><a href="partclone.dd.xml.html" alt="manual of partclone.dd">partclone.dd</a></span>(8)</span>, <span class="citerefentry"><span class="refentrytitle"><a href="partclone.info.xml.html" alt="manual of partclone.info">partclone.info</a></span>(8)</span>
-      </p>
-</div>
 
       <!-- The end of edit area 2cce8a -->
       <script type="text/javascript">
