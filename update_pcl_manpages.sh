@@ -20,6 +20,7 @@ pushd $partclone_usage_dir
 for man in $manpages; do
     $xsltproc $opt_css $stylesheet $man > $(basename $man).html
     sed -i "s/<body.*/<!-- The start of edit area 2cce8a -->\n<h3>Welcome to Partclone Usage<\/h3>\n<p>partclone.[ <a href=\"partclone.xml.html\">[fstype]<\/a> | <a href=\"partclone.restore.xml.html\">restore<\/a> | <a href=\"partclone.dd.xml.html\">dd<\/a> | <a href=\"partclone.chkimg.xml.html\">chkimg<\/a> | <a href=\"partclone.info.xml.html\">info<\/a> ]<\/p>/" $(basename $man).html
+    sed -i "s/<\/p><\/div><\/div>//" $(basename $man).html
     sed -i "s/<\/body>/<\!-- The end of edit area 2cce8a -->/" $(basename $man).html
 done
 #sed -i "s/<span class=\"refentrytitle\">\(partclone\)<\/span>/<span class=\"refentrytitle\"><a href=\"\1.xml.html\" alt=\"manual of \1\">\1<\/a><\/span>/g" *.xml.html
